@@ -1,0 +1,26 @@
+# Dependencies
+node_modules/
+
+# Local environment / secrets (NEVER commit real secrets)
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
+
+# Build output / caches (none ship today; reserved)
+dist/
+build/
+.cache/
+
+# Keep tracked: .env.example, app/** runtime, database/**, docs/**,
+# scripts/**, tests/**, courses/course-registry.json

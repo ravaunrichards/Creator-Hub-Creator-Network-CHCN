@@ -1,0 +1,19 @@
+{
+  "name": "chcn-game-web",
+  "version": "58.0.0",
+  "private": true,
+  "description": "Creator Hub Creator Network (CHCN) \u2014 client-side TVET education PWA, served from app/, with Node build/test tooling and a designed (not-deployed) Supabase backend under database/.",
+  "license": "UNLICENSED",
+  "scripts": {
+    "test": "bash scripts/run-tests.sh",
+    "test:unit": "node tests/unit/grading.test.js",
+    "test:integration": "node tests/integration/data-integrity.test.js",
+    "build:registry": "node scripts/build-registry.js",
+    "build:sql-seed": "node scripts/build-sql-seed.js",
+    "build": "node scripts/build-registry.js && node scripts/build-sql-seed.js",
+    "serve": "npx --yes serve app"
+  },
+  "engines": {
+    "node": ">=16"
+  }
+}
