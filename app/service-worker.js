@@ -1,12 +1,11 @@
 /* Creator Hub Creator Network — Service Worker */
-const CACHE_NAME = 'chcn-v58-academy';
+const CACHE_NAME = 'chcn-v59-simplified-shell';
 const ASSETS = [
   './',
   './index.html',
   './style.css',
   './chcn-global.css',
   './chcn-lifetools.css',
-  './chcn-nav.css',
   './chcn-resume-photo.css',
   './chcn-completeness.css',
   './chcn-docstudio.css',
@@ -54,10 +53,8 @@ const ASSETS = [
   './quality-patch.js',
   './master-enhancements.js',
   './voice-accessibility.js','./tiktok-course.js','./instrument-courses.js','./music-studio.js',
-  './tiktok-services.js','./quizzes-data.js','./creator-tools.js','./media-studio.js','./game-center.js','./game-center-plus.js','./game-center-expansion.js','./chcn-content-manager.js','./chcn-office-viewer.js','./chcn-office-viewer.css',
+  './tiktok-services.js','./quizzes-data.js','./creator-tools.js','./media-studio.js','./game-center.js','./game-center-plus.js','./game-center-expansion.js','./chcn-content-manager.js','./chcn-office-viewer.js','./chcn-office-viewer.css','./chcn-simple-ui.css',
   './chcn-assistant.js',
-  './screen-orientation.js',
-  './app-view-controls.js',
   './chcn-overlay-manager.js',
   './chcn-qa-audit.js',
   './chcn-download-fix.js',
