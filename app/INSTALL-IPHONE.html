@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Install Creator Hub on iPhone</title>
+<style>
+  body{font-family:-apple-system,Segoe UI,Roboto,Arial,sans-serif;margin:0;padding:20px;color:#1d2939;background:#f8f6ff;line-height:1.5}
+  .card{max-width:620px;margin:0 auto;background:#fff;border:1px solid #e4e0f5;border-radius:16px;padding:22px 20px;box-shadow:0 6px 24px rgba(80,40,160,.08)}
+  h1{font-size:22px;margin:0 0 4px;color:#5b21b6}
+  h2{font-size:17px;margin:22px 0 8px;color:#5b21b6}
+  .step{display:flex;gap:12px;margin:10px 0;align-items:flex-start}
+  .n{flex:0 0 26px;height:26px;border-radius:50%;background:#7c3aed;color:#fff;font-weight:700;display:flex;align-items:center;justify-content:center;font-size:14px}
+  .note{background:#f5f3ff;border:1px solid #ddd6fe;border-radius:10px;padding:12px 14px;font-size:14px;margin:14px 0}
+  code{background:#f1eefc;padding:2px 6px;border-radius:6px;font-size:13px}
+  .warn{background:#fff7ed;border:1px solid #fed7aa;border-radius:10px;padding:12px 14px;font-size:14px;margin:14px 0}
+</style>
+</head>
+<body>
+<div class="card">
+  <h1>📱 Install on iPhone / iPad</h1>
+  <p>Creator Hub installs on iPhone as a <strong>home-screen app (PWA)</strong>. Apple does not allow non-App-Store <code>.ipa</code> installers on a normal iPhone, so this is the official, Apple-approved way to install it. It gets its own icon, opens full-screen with no browser bars, and works offline after the first open.</p>
+
+  <h2>Before you start</h2>
+  <p>The app must be opened from a web address over <strong>https://</strong> (not a file). Host the <strong>Website</strong> folder on any free static host (GitHub Pages, Netlify, Cloudflare Pages, Vercel — all free), then open that link on the iPhone. One-time setup; after that the app works offline.</p>
+
+  <h2>Steps on the iPhone</h2>
+  <div class="step"><div class="n">1</div><div>Open the app’s web link in <strong>Safari</strong> (must be Safari — Chrome on iOS can’t add to Home Screen).</div></div>
+  <div class="step"><div class="n">2</div><div>Tap the <strong>Share</strong> button (the square with an up-arrow) at the bottom of Safari.</div></div>
+  <div class="step"><div class="n">3</div><div>Scroll down and tap <strong>Add to Home Screen</strong>.</div></div>
+  <div class="step"><div class="n">4</div><div>Tap <strong>Add</strong> in the top-right. The Creator Hub icon appears on the Home Screen.</div></div>
+  <div class="step"><div class="n">5</div><div>Open it once while online so it caches. After that it launches full-screen and works offline.</div></div>
+
+  <div class="note"><strong>Fastest free hosting:</strong> go to <code>app.netlify.com/drop</code> on a computer, drag in the <strong>www</strong> folder, and Netlify gives you an <code>https://</code> link instantly. Open that link on the iPhone and follow the steps above.</div>
+
+  <div class="warn"><strong>Why not a real .ipa installer?</strong> A sideloadable iPhone <code>.ipa</code> requires a Mac with Xcode, an Apple Developer account, and Apple code-signing — and even then it must be installed through the App Store, TestFlight, or an enterprise/MDM profile. None of that can be produced offline here. The Home-Screen (PWA) install above is the real, supported alternative and needs no Mac, no account, and no fees.</div>
+
+  <p style="font-size:13px;color:#667085;margin-top:18px">Android users: install the signed <strong>Creator-Hub-App-Release.apk</strong> directly — no account needed.</p>
+</div>
+</body>
+</html>

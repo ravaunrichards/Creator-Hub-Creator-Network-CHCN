@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, viewport-fit=cover">
+  <meta name="format-detection" content="telephone=no">
+  <meta name="description" content="Creator Hub Creator Network — Empowering Your Upward Journey. Professional security training courses online 24/7.">
+  <meta name="theme-color" content="#1a1a2e">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="Creator Hub">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="mobile-web-app-capable" content="yes">
+  <link rel="manifest" href="manifest.json">
+  <link rel="icon" type="image/png" href="icon.png">
+  <link rel="apple-touch-icon" href="icon.png">
+  <link rel="apple-touch-icon" sizes="192x192" href="icon-192.png">
+  <style>
+    /* iOS safe-area support so content never hides under the notch / home bar */
+    body{padding-bottom:env(safe-area-inset-bottom);}
+  </style>
+  <title>Creator Hub Creator Network — Empowering Your Upward Journey</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="leaflet.css">
+  <link rel="stylesheet" href="career-hub.css">
+  <link rel="stylesheet" href="chcn-global.css">
+  <link rel="stylesheet" href="chcn-lifetools.css">
+  <link rel="stylesheet" href="chcn-nav.css">
+  <link rel="stylesheet" href="chcn-resume-photo.css">
+  <link rel="stylesheet" href="chcn-docstudio.css">
+  <link rel="stylesheet" href="chcn-completeness.css">
+  <link rel="stylesheet" href="chcn-office-viewer.css">
+  <script src="leaflet.js"></script>
+  <script src="native-bridge.js"></script>
+  <script src="global-services.js"></script>
+  <script src="chcn-open-external.js"></script>
+  <script src="global-voice.js"></script>
+  <script src="global-commands.js"></script>
+</head>
+<body>
+  <div class="top-bar">
+    <div class="container">
+      <button class="send-enquiry-btn" onclick="openModal('contactModal')">💬 Send Enquiry</button>
+      <div>
+        <span>Have a question? Let us help!</span>
+        <a href="mailto:info.creatorhubcreatornetwork@gmail.com">Email Us</a>
+        <a onclick="openWhatsApp()">WhatsApp</a>
+        <span class="device-clock" id="deviceClock" title="Live device time">🕒 --:--:--</span>
+      </div>
+    </div>
+  </div>
+  <header class="navbar">
+    <div class="container">
+      <div class="logo" onclick="navigate('index')" aria-label="Creator Hub Creator Network home">
+        <div class="logo-icon"><img src="logo.png" alt="Creator Hub Creator Network logo" alt="Creator Hub Creator Network"></div>
+      </div>
+      <button class="mobile-toggle" onclick="document.querySelector('.navbar nav').classList.toggle('open')">☰</button>
+      <nav>
+        <a class="nav-link" data-page="index" onclick="navigate('index')">Home</a>
+        <a class="nav-link" data-page="courses" onclick="navigate('courses')">Courses</a>
+        <a class="nav-link" data-page="tiktok" onclick="navigate('tiktok')">TikTok Services</a>
+        <a class="nav-link" data-page="map" onclick="navigate('map')">Map</a>
+        <a class="nav-link" data-page="payment" onclick="navigate('payment')">Payment</a>
+        <a class="nav-link" data-page="about" onclick="navigate('about')">About Us</a>
+        <a class="nav-link" data-page="contact" onclick="navigate('contact')">Contact Us</a>
+        <a class="nav-link" data-page="voice" onclick="openVoiceHub()">🔊 Voice</a>
+        <a class="nav-link nav-link-account" data-page="account" onclick="navigate('account')" style="display:none;">My Account</a>
+        <button class="nav-btn nav-btn-signin" onclick="openModal('loginModal')">Sign In</button>
+        <button class="nav-btn nav-btn-signout" onclick="handleSignOut()" style="display:none;background:#666;">Sign Out</button>
+      </nav>
+    </div>
+  </header>
+
+  <div id="page-index">
+    <section class="hero">
+      <div class="container">
+        <div class="hero-content">
+          <h1>Empowering<br>Your <span>Upward</span><br>Journey!</h1>
+          <p>Offering accessible, practical courses online 24/7 on supported devices. Learn at your own pace with clear lessons, knowledge checks, projects and final assessments.</p>
+          <div class="hero-buttons">
+            <button class="btn btn-primary" onclick="navigate('courses')">Explore Courses</button>
+            <button class="btn btn-outline" onclick="openModal('signupModal')">Sign Up Free</button>
+          </div>
+        </div>
+        <div class="hero-graphic founder-hero-card">
+          <div class="founder-hero-photo-wrap"><img src="founder.png" alt="Founder of Creator Hub Creator Network" class="founder-hero-photo"></div>
+          
+        </div>
+      </div>
+    </section>
+<section class="founder-home-feature founder-home-noimg" id="founderHomeFeature"><div class="container"><div class="founder-home-grid"><div class="founder-home-copy"><span class="founder-kicker">CREATOR HUB CREATOR NETWORK</span><h2>Meet the Founder</h2><h3>Ravaun Richards</h3><p>Founder &amp; Lead Instructor</p><p>Building practical learning opportunities designed to help learners develop useful skills and demonstrate their progress.</p></div></div></div></section>
+<section class="founder-home-feature" id="dressCodeFeature"><div class="container"><div class="founder-home-grid"><div class="founder-home-image"><img src="course-uniform.jpg" alt="Creator Hub Creator Network — Course Uniform &amp; Dress Code Guide"></div><div class="founder-home-copy"><span class="founder-kicker">CREATOR HUB CREATOR NETWORK</span><h2>Course Uniform &amp; Dress Code</h2><p>Every programme has a recommended uniform and dress code. Review the guide so you arrive prepared, look professional, and represent Creator Hub Creator Network with confidence.</p></div></div><div class="dress-code-gallery"><figure class="dress-code-card"><img src="instructor-dress-code.jpg" alt="Creator Hub Creator Network — Instructor Dress Code Guide"><figcaption>Instructor Dress Code</figcaption></figure><figure class="dress-code-card"><img src="training-academy-dress-code.jpg" alt="Creator Hub Creator Network — Training Academy Uniform &amp; Dress Code Guide"><figcaption>Training Academy Uniform &amp; Dress Code</figcaption></figure></div></div></section>
+    <section class="welcome">
+      <div class="container">
+        <h2>Welcome learner!</h2>
+        <p class="founder-name">My name is Ravaun Richards. Founder of Creator Hub Creator Network.</p>
+        <p><strong>Learn. Grow. Prove Your Progress.</strong></p>
+        <p>Creator Hub Creator Network helps you build real skills for school, work, and life. Our courses are clear, practical, and designed to guide you step by step.</p>
+        <p class="tagline">Start where you are. Build what you need. Move forward with confidence. — Creator Hub Creator Network: learning with purpose, progress with proof.</p>
+      </div>
+    </section>
+    <section class="courses">
+      <div class="container">
+        <h2 class="section-title">New Courses</h2>
+        <p class="section-subtitle">Featured programmes designed for your career growth</p>
+        <div class="courses-grid">
+          <div class="course-card" onclick="navigate('course-level1')"><div class="card-header"><span class="badge badge-featured">Featured</span>Level 1</div><div class="card-body"><h3>Level 1 Security Officer Training</h3><p>Beginner security-officer training covering core security operations, reporting, access control, patrols and professional conduct.</p><div class="course-meta"><span class="level-beginner">Beginner</span><span>167 Lectures</span><span>Self-Paced</span></div><div class="course-stats"><span class="views">👁 0 views</span><span class="students">👨‍🎓 0 students</span></div><div class="course-footer"><span class="course-price">Free</span><button class="btn btn-primary btn-sm">Preview</button></div></div></div>
+          <div class="course-card" onclick="navigate('course-assessment')"><div class="card-header"><span class="badge badge-new">Free</span>Assessment</div><div class="card-body"><h3>Same Day Security Assessment</h3><p>A same-day assessment for experienced security officers with 6+ months field experience.</p><div class="course-meta"><span class="level-beginner">Beginner</span><span>4 Lectures</span><span>30 Minutes</span></div><div class="course-stats"><span class="views">👁 0 views</span><span class="students">👨‍🎓 0 students</span></div><div class="course-footer"><span class="course-price">Free</span><button class="btn btn-primary btn-sm">Preview</button></div></div></div>
+          <div class="course-card" onclick="navigate('course-senior')"><div class="card-header"><span class="badge badge-new">New</span>Level 2</div><div class="card-body"><h3>AISS-S Senior Supervisor</h3><p>Advanced security-supervision training covering leadership, risk, conduct, incident response and compliance.</p><div class="course-meta"><span class="level-advanced">Advanced</span><span>144 Lectures</span><span>8–12 Weeks</span></div><div class="course-stats"><span class="views">👁 0 views</span><span class="students">👨‍🎓 0 students</span></div><div class="course-footer"><span class="course-price free">Free</span><button class="btn btn-primary btn-sm">Preview</button></div></div></div>
+          <div class="course-card" onclick="navigate('course-junior')"><div class="card-header"><span class="badge badge-new">New</span>Level 1</div><div class="card-body"><h3>AISS-J Junior Supervisor</h3><p>Intermediate first-line security-supervision training covering shifts, team leadership, escalation and quality.</p><div class="course-meta"><span class="level-intermediate">Intermediate</span><span>142 Lectures</span><span>8–10 Weeks</span></div><div class="course-stats"><span class="views">👁 0 views</span><span class="students">👨‍🎓 0 students</span></div><div class="course-footer"><span class="course-price free">Free</span><button class="btn btn-primary btn-sm">Preview</button></div></div></div>
+          <div class="course-card" onclick="navigate('course-driver-beginner')"><div class="card-header"><span class="badge badge-new">New</span>Driver</div><div class="card-body"><h3>Driver's Course — Beginner</h3><p>Learn to drive from the ground up: vehicle controls, road rules, and safe habits.</p><div class="course-meta"><span class="level-beginner">Beginner</span><span>14 Lessons</span><span>Self-Paced</span></div><div class="course-stats"><span class="views">👁 0 views</span><span class="students">👨‍🎓 0 students</span></div><div class="course-footer"><span class="course-price free">Free</span><button class="btn btn-primary btn-sm">Preview</button></div></div></div>
+          <div class="course-card" onclick="navigate('course-driver-intermediate')"><div class="card-header"><span class="badge badge-new">New</span>Driver</div><div class="card-body"><h3>Driver's Course — Intermediate</h3><p>Build confidence in traffic, junctions, roundabouts, parking, and adverse conditions.</p><div class="course-meta"><span class="level-intermediate">Intermediate</span><span>13 Lessons</span><span>Self-Paced</span></div><div class="course-stats"><span class="views">👁 0 views</span><span class="students">👨‍🎓 0 students</span></div><div class="course-footer"><span class="course-price free">Free</span><button class="btn btn-primary btn-sm">Preview</button></div></div></div>
+          <div class="course-card" onclick="navigate('course-driver-advanced')"><div class="card-header"><span class="badge badge-new">New</span>Driver</div><div class="card-body"><h3>Driver's Course — Advanced</h3><p>Master defensive driving, highway driving, emergency handling, and professional skills.</p><div class="course-meta"><span class="level-advanced">Advanced</span><span>13 Lessons</span><span>Self-Paced</span></div><div class="course-stats"><span class="views">👁 0 views</span><span class="students">👨‍🎓 0 students</span></div><div class="course-footer"><span class="course-price free">Free</span><button class="btn btn-primary btn-sm">Preview</button></div></div></div>
+        </div>
+      </div>
+    </section>
+    <section class="why-section"><div class="container"><h2 class="section-title">Why Our Courses?</h2><p class="section-subtitle">Built around what matters most for your success</p><div class="why-grid"><div class="why-card"><div class="icon">💡</div><h4>Entrepreneurship</h4><p>Develop the mindset and skills to build your own path in the security industry and beyond.</p></div><div class="why-card"><div class="icon">📈</div><h4>Productivity</h4><p>Maximize your efficiency with structured learning that fits your schedule and pace.</p></div><div class="why-card"><div class="icon">⚡</div><h4>Accelerated Learning</h4><p>Fast-track your career with focused courses designed for rapid skill acquisition.</p></div><div class="why-card"><div class="icon">🧭</div><h4>Life Coaching</h4><p>Gain confidence, discipline, and direction that extends beyond the classroom.</p></div></div></div></section>
+    <section class="stats-section"><div class="container"><div class="stats-grid"><div class="stats-card"><div class="stats-icon">👩‍🎓</div><div class="stats-number">0</div><div class="stats-label">Online Learners</div></div><div class="stats-card"><div class="stats-icon">🎬</div><div class="stats-number">0</div><div class="stats-label">Courses</div></div><div class="stats-card"><div class="stats-icon">🖼️</div><div class="stats-number">0</div><div class="stats-label">Learning Resources</div></div><div class="stats-card"><div class="stats-icon">⭐</div><div class="stats-number">0</div><div class="stats-label">Verified Reviews — none yet</div></div></div></div></section>
+    <section class="testimonials"><div class="container"><h2 class="section-title">Learner Feedback</h2><p class="section-subtitle">No verified learner reviews have been published yet.</p></div></section>
+    <section class="steps-section"><div class="container"><h2 class="section-title">How to Begin or Continue Your Course</h2><p class="section-subtitle">Follow these simple steps to get started</p><div class="steps-grid"><div class="step-item"><div class="step-num">1</div><h4>Pick Your Course</h4><p>Browse and choose the right programme</p></div><div class="step-item"><div class="step-num">2</div><h4>Choose a Course and Create an Account</h4><p>Create your learner account</p></div><div class="step-item"><div class="step-num">3</div><h4>Complete the Sign-Up Form</h4><p>Fill in your details</p></div><div class="step-item"><div class="step-num">4</div><h4>Sign In</h4><p>Use the account stored on this device</p></div><div class="step-item"><div class="step-num">5</div><h4>Sign In and Start Your Course</h4><p>Begin learning immediately</p></div><div class="step-item"><div class="step-num">6</div><h4>Review Access Terms</h4><p>Review the course page for the current access and payment terms</p></div><div class="step-item"><div class="step-num">7</div><h4>Complete Assessment</h4><p>Earn a Creator Hub completion certificate when the course requirements are met</p></div></div></div></section>
+    <section class="cta-section"><div class="container"><h2 class="section-title">Get Started Here</h2><p class="section-subtitle">Choose your path below</p><div class="cta-grid"><div class="cta-card signup"><h3>Sign Up</h3><p>Create your account and start learning immediately.</p><button class="btn" style="background:#fff;color:#1a1a2e;font-weight:700;" onclick="openModal('signupModal')">Sign Up</button></div><div class="cta-card login"><h3>Continue Learning</h3><p>Login and choose to start or continue any course you desire.</p><button class="btn" style="background:#fff;color:#e8491d;font-weight:700;" onclick="openModal('loginModal')">Login</button></div></div></div></section>
+  </div>
+
+  <div id="page-courses" style="display:none">
+    <section class="page-header"><h1>Our Courses</h1><p>Browse the full catalogue of subject-specific professional and vocational training programmes.</p></section>
+    <section class="courses-page"><div class="container">
+      <div class="filter-bar">
+        <input type="text" id="filterSearch" placeholder="Search courses..." oninput="filterCourses()">
+        <select id="filterCategory" onchange="filterCourses()"><option value="">Category</option><option value="Level 1 Security Officer Training">Level 1 Security Officer Training</option><option value="Security Assessment">Security Assessment</option><option value="Level 2 Security Supervisor Training">Level 2 Security Supervisor Training</option><option value="Level 1 Security Supervisor Training">Level 1 Security Supervisor Training</option><option value="Driver's Course">Driver's Course</option><option value="Agriculture">Agriculture</option><option value="Allied Health">Allied Health</option><option value="Automotive">Automotive</option><option value="Beauty and Wellness">Beauty and Wellness</option><option value="Business and Management">Business and Management</option><option value="Education and Childcare">Education and Childcare</option><option value="Electrical and HVAC">Electrical and HVAC</option><option value="Construction and Trades">Construction and Trades</option><option value="Hospitality">Hospitality</option><option value="ICT">ICT</option><option value="Logistics and Operations">Logistics and Operations</option></select>
+        <select id="filterLevel" onchange="filterCourses()"><option value="">Level</option><option value="Beginner">Beginner</option><option value="Intermediate">Intermediate</option><option value="Advanced">Advanced</option></select>
+        <select id="filterPrice" onchange="filterCourses()"><option value="">Price</option><option value="free">Free</option><option value="paid">Paid</option></select>
+        <select id="sortSelect" onchange="sortCourses()"><option value="">Sort By</option><option value="newest">Newest</option><option value="oldest">Oldest</option><option value="price_high">Price: High to Low</option><option value="price_low">Price: Low to High</option><option value="popular">Most Viewed</option></select>
+        <button class="btn btn-sm" style="background:#666;color:#fff;font-size:12px;padding:8px 14px;" onclick="resetFilters()">Reset All</button>
+      </div>
+      <div class="courses-grid" id="coursesGrid">
+        <div class="course-card" data-category="Level 1 Security Officer Training" data-level="Beginner" data-price="paid" data-views="0" onclick="navigate('course-level1')"><div class="card-header"><span class="badge badge-featured">Featured</span>Level 1</div><div class="card-body"><h3>Level 1 Security Officer Training</h3><p>Beginner security-officer training covering core security operations, reporting, access control, patrols and professional conduct.</p><div class="course-meta"><span class="level-beginner">Beginner</span><span>167 Lectures</span><span>Self-Paced</span></div><div class="course-footer"><span class="course-price">Free</span><button class="btn btn-primary btn-sm">Preview</button></div></div></div>
+        <div class="course-card" data-category="Security Assessment" data-level="Beginner" data-price="members" data-views="0" onclick="navigate('course-assessment')"><div class="card-header"><span class="badge badge-new">Free</span>Assessment</div><div class="card-body"><h3>Same Day Security Assessment</h3><p>A focused assessment-preparation programme covering security knowledge and practical scenarios.</p><div class="course-meta"><span class="level-beginner">Beginner</span><span>4 Lectures</span><span>30 Minutes</span></div><div class="course-footer"><span class="course-price">Free</span><button class="btn btn-primary btn-sm">Preview</button></div></div></div>
+        <div class="course-card" data-category="Level 2 Security Supervisor Training" data-level="Advanced" data-price="free" data-views="0" onclick="navigate('course-senior')"><div class="card-header"><span class="badge badge-new">New</span>Level 2</div><div class="card-body"><h3>AISS-S Senior Supervisor</h3><p>Advanced security-supervision training covering leadership, risk, conduct, incident response and compliance.</p><div class="course-meta"><span class="level-advanced">Advanced</span><span>144 Lectures</span><span>8–12 Weeks</span></div><div class="course-footer"><span class="course-price free">Free</span><button class="btn btn-primary btn-sm">Preview</button></div></div></div>
+        <div class="course-card" data-category="Level 1 Security Supervisor Training" data-level="Intermediate" data-price="free" data-views="0" onclick="navigate('course-junior')"><div class="card-header"><span class="badge badge-new">New</span>Level 1</div><div class="card-body"><h3>AISS-J Junior Supervisor</h3><p>Intermediate first-line security-supervision training covering shifts, team leadership, escalation and quality.</p><div class="course-meta"><span class="level-intermediate">Intermediate</span><span>142 Lectures</span><span>8–10 Weeks</span></div><div class="course-footer"><span class="course-price free">Free</span><button class="btn btn-primary btn-sm">Preview</button></div></div></div>
+        <div class="course-card" data-category="Driver's Course" data-level="Beginner" data-price="free" data-views="0" onclick="navigate('course-driver-beginner')"><div class="card-header"><span class="badge badge-new">New</span>Driver</div><div class="card-body"><h3>Driver's Course — Beginner</h3><p>Learn to drive from the ground up: vehicle controls, road rules, and safe habits.</p><div class="course-meta"><span class="level-beginner">Beginner</span><span>14 Lessons</span><span>Self-Paced</span></div><div class="course-footer"><span class="course-price free">Free</span><button class="btn btn-primary btn-sm">Preview</button></div></div></div>
+        <div class="course-card" data-category="Driver's Course" data-level="Intermediate" data-price="free" data-views="0" onclick="navigate('course-driver-intermediate')"><div class="card-header"><span class="badge badge-new">New</span>Driver</div><div class="card-body"><h3>Driver's Course — Intermediate</h3><p>Build confidence in traffic, junctions, roundabouts, parking, and adverse conditions.</p><div class="course-meta"><span class="level-intermediate">Intermediate</span><span>13 Lessons</span><span>Self-Paced</span></div><div class="course-footer"><span class="course-price free">Free</span><button class="btn btn-primary btn-sm">Preview</button></div></div></div>
+        <div class="course-card" data-category="Driver's Course" data-level="Advanced" data-price="free" data-views="0" onclick="navigate('course-driver-advanced')"><div class="card-header"><span class="badge badge-new">New</span>Driver</div><div class="card-body"><h3>Driver's Course — Advanced</h3><p>Master defensive driving, highway driving, emergency handling, and professional skills.</p><div class="course-meta"><span class="level-advanced">Advanced</span><span>13 Lessons</span><span>Self-Paced</span></div><div class="course-footer"><span class="course-price free">Free</span><button class="btn btn-primary btn-sm">Preview</button></div></div></div>
+      </div>
+      <h2 style="font-size:22px;font-weight:700;color:#1a1a2e;margin:32px 0 12px;padding:0 8px;">TVET &amp; Vocational Programmes</h2>
+      <p style="color:#666;margin-bottom:16px;padding:0 8px;">National vocational qualifications aligned to the NVQ-J framework — competency-based training across 11 industry sectors.</p>
+      <div class="courses-grid" id="tvetCoursesGrid"></div>
+    </div></section>
+  </div>
+
+  <div id="page-about" style="display:none">
+    <section class="page-header"><h1>About Us</h1><p>Learn about our mission, values, and the team behind Creator Hub Creator Network</p></section>
+    <section class="about-section"><div class="container"><div class="about-content">
+      <h2>Welcome to Creator Hub Creator Network!</h2>
+      <p>Online studies are designed for students whose scheduling commitments would otherwise make it difficult to enroll in a full-time higher education program.</p>
+      <h3>Professional Certificate Courses (Online)</h3>
+      <p>Online certificates can be obtained in a range of specialized areas and are awarded immediately upon completing any course.</p>
+      <div class="about-tabs">
+        <div class="tab active" onclick="switchAboutTab(event,'about')">About</div>
+        <div class="tab" onclick="switchAboutTab(event,'benefits')">Core Benefits</div>
+        <div class="tab" onclick="switchAboutTab(event,'mission')">Mission</div>
+        <div class="tab" onclick="switchAboutTab(event,'vision')">Vision</div>
+        <div class="tab" onclick="switchAboutTab(event,'values')">Values</div>
+      </div>
+      <div class="tab-content active" id="tab-about"><h2>About Creator Hub Creator Network</h2><p><strong>Creator Hub Creator Network (CHCN)</strong> is an evolving online learning and training platform designed to make educational resources, practical skills development and career-focused learning more accessible through technology.</p><p>Our goal is to bring learning resources together in one organized platform where learners can explore courses, study lessons, complete quizzes and assessments, access supporting materials, develop practical skills and continue building their knowledge at their own pace.</p><p>Creator Hub Creator Network is being developed to support a broad range of learning areas, including academic subjects, technology, vocational and practical skills, agriculture, creative skills, career development and other educational pathways.</p><p>The platform is designed to grow continuously. New courses, lessons, curriculum materials, quizzes, assessments, documents, practical projects and learning resources can be added over time rather than requiring the entire platform to be rebuilt.</p><p>Our focus is on providing organized learning experiences with clear course structures, relevant curriculum, useful assessments, accessible technology and practical learning opportunities.</p><p>Where information relates to regulated professions, government requirements, examinations, licensing or external qualifications, Creator Hub Creator Network identifies the appropriate authority and distinguishes its educational resources from official qualifications or government certification.</p><p>Creator Hub Creator Network certificates represent only achievements actually completed through the platform, unless a legitimate external qualification or accreditation is specifically and truthfully identified.</p><h3>How we are improving the learning experience</h3><ul style="padding-left:20px;list-style:disc;"><li>Structured courses and curriculum development</li><li>Quizzes and assessments</li><li>Practical learning and career development</li><li>Accessibility and multilingual support</li><li>Voice and read-aloud features</li><li>Digital learning resources and mobile learning</li><li>Offline capabilities where supported</li><li>Secure account management</li><li>Continuous content updates</li></ul><p>Our vision is to build a reliable, expandable and accessible learning environment where people can continue developing knowledge and practical skills throughout their lives.</p><p><strong>Creator Hub Creator Network — Learn. Develop. Create. Grow.</strong></p><p>Follow us on TikTok: <a href="https://www.tiktok.com/@creatorhubcreatornetwork" target="_blank" rel="noopener">@creatorhubcreatornetwork</a></p></div>
+      <div class="tab-content" id="tab-benefits"><h2>Learning Features</h2><ul style="padding-left:20px;list-style:disc;"><li>Online learning available on supported devices</li><li>Structured curricula and course descriptions</li><li>Course-matched quizzes and final assessments</li><li>Self-paced lesson access</li><li>Progress tracking and learner account tools</li><li>Career and job-search resources</li><li>Creator Hub completion certificates where applicable</li></ul></div>
+      <div class="tab-content" id="tab-mission"><h2>Our Mission</h2><p>Our mission is to <strong>develop, educate, and empower learners</strong> through practical training, motivation, and personal growth experiences that build confidence, discipline, and career readiness.</p></div>
+      <div class="tab-content" id="tab-vision"><h2>Our Vision</h2><p>Our vision is to become a <strong>leading name in continuing education</strong>, recognized for affordable, accessible, and high-quality training.</p></div>
+      <div class="tab-content" id="tab-values"><h2>Our Values</h2><ul style="padding-left:20px;list-style:disc;"><li>Respect</li><li>Honesty</li><li>Discipline</li><li>Professionalism</li><li>Responsibility</li><li>Time Management</li><li>Positive Conduct</li><li>Appropriate Presentation</li><li>Goal-Driven Achievement</li></ul></div>
+      <h2 style="margin-top:40px;">Certifications</h2>
+      <p style="color:#555;margin-bottom:14px;">Programmes lead to competency-based awards aligned to the National Vocational Qualification of Jamaica (CHCN) framework, issued on successful completion of all competency units and the final assessment.</p>
+      <div class="certifications"><div class="cert-badge">CHCN Level 1 — Foundation Certificates</div><div class="cert-badge">CHCN Level 2 — Intermediate Certificates</div><div class="cert-badge">CHCN Level 3 — Advanced Certificates</div><div class="cert-badge">Certified Professional Security Officer (CPSO)</div><div class="cert-badge">Advanced Professional Security Officer (APSO)</div><div class="cert-badge">Advanced Security Operations Specialist (ASOS)</div></div>
+    </div></div></section>
+  </div>
+
+  <div id="page-contact" style="display:none">
+    <section class="page-header"><h1>Contact Us</h1><p>We'd love to hear from you — reach out anytime</p></section>
+    <section class="contact-section"><div class="container"><div class="contact-grid">
+      <div class="contact-info"><h3>Contact Information</h3><div class="contact-item"><div class="icon">📍</div><div><div class="label">Address</div><div class="value">Jamaica (Online Services)</div></div></div><div class="contact-item"><div class="icon">💬</div><div><div class="label">WhatsApp Business</div><div class="value">+1 (876) 887-5573</div></div></div><div class="contact-item"><div class="icon">📧</div><div><div class="label">Email</div><div class="value">info.creatorhubcreatornetwork@gmail.com</div></div></div><div class="contact-item"><div class="icon tiktok-contact-icon" aria-hidden="true"><svg viewBox="0 0 24 24" role="img"><path d="M14.4 3c.35 2.2 1.65 3.75 3.8 4.05v2.25c-1.35-.05-2.55-.42-3.8-1.1v6.15a5.65 5.65 0 1 1-4.9-5.6v2.45a3.2 3.2 0 1 0 2.45 3.1V3h2.45z"/></svg></div><div><div class="label">TikTok</div><div class="value"><a href="https://www.tiktok.com/@creatorhubcreatornetwork" target="_blank" rel="noopener noreferrer">@creatorhubcreatornetwork</a></div></div></div></div>
+      <div class="contact-form"><h3 style="font-size:20px;font-weight:700;color:#1a1a2e;margin-bottom:20px;">Send a Message</h3><form onsubmit="handleContact(event)"><label>Your Name</label><input type="text" id="contactName" placeholder="Enter your name" required><label>Your Email</label><input type="email" id="contactEmail" placeholder="Enter your email" required><label>Subject</label><input type="text" id="contactSubject" placeholder="What is this about?"><label>Message</label><textarea id="contactMessage" placeholder="Type your message here..." required></textarea><button type="button" class="btn btn-outline btn-sm" style="margin-top:8px;" onclick="startVoiceInput('contactMessage',this)">🎤 Voice Input</button><button class="btn btn-primary" style="width:100%;margin-top:20px;" type="submit">Send Message</button><div class="success-msg">Opening your email app to send this message.</div></form></div>
+    </div></div></section>
+  </div>
+
+  <div id="page-account" style="display:none">
+    <section class="page-header"><h1>My Account</h1><p>Manage your learning journey</p></section>
+    <section class="account-section"><div class="container"><div class="account-cover" id="accountCover"><div class="account-cover-empty" id="coverEmptyHint">Add a cover photo to personalize your account</div><div class="account-cover-actions"><label class="cover-upload-btn">🖼️ Upload cover<input type="file" accept="image/*" onchange="uploadCoverPhoto(event)" style="display:none;"></label><button type="button" class="cover-remove-btn" onclick="removeCoverPhoto()">Remove cover</button></div></div><div class="account-layout">
+      <div class="account-sidebar">
+        <div class="account-sidebar-header"><div class="account-avatar" id="accountAvatar">U</div><h3 id="accountName">User</h3><p id="accountEmail">Not signed in</p><label class="avatar-upload-btn">📷 Change Photo<input type="file" accept="image/*" onchange="uploadProfilePic(event)" style="display:none;"></label><a class="avatar-remove" onclick="removeProfilePic()">Remove photo</a></div>
+        <div class="account-sidebar-link active" onclick="switchAccountTab('panel-profile',this)"><span class="link-icon">👤</span> Profile</div>
+        <div class="account-sidebar-link" onclick="switchAccountTab('panel-enrolled',this)"><span class="link-icon">📚</span> Enrolled Courses</div>
+        <div class="account-sidebar-link" onclick="switchAccountTab('panel-progress',this)"><span class="link-icon">📊</span> My Progress</div>
+        <div class="account-sidebar-link" onclick="switchAccountTab('panel-certificates',this)"><span class="link-icon">🎓</span> Certificates</div>
+        <div class="account-sidebar-link" onclick="switchAccountTab('panel-career',this)"><span class="link-icon">🗂️</span> Career Studio</div>
+        <div class="account-sidebar-link" onclick="switchAccountTab('panel-chat',this)"><span class="link-icon">💬</span> Messages</div>
+        <div class="account-sidebar-link" onclick="switchAccountTab('panel-wishlist',this)"><span class="link-icon">♡</span> Wishlist</div>
+        <div class="account-sidebar-link" onclick="switchAccountTab('panel-orders',this)"><span class="link-icon">🧾</span> My Orders</div>
+        <div class="account-sidebar-link" onclick="switchAccountTab('panel-settings',this)"><span class="link-icon">⚙️</span> Settings</div>
+      </div>
+      <div class="account-main">
+        <div class="account-panel active" id="panel-profile"><h3>Profile</h3><div class="profile-pic-block"><div class="account-avatar large" id="accountAvatarLarge"></div><label class="avatar-upload-btn">📷 Upload / Change Picture<input type="file" accept="image/*" onchange="uploadProfilePic(event)" style="display:none;"></label></div><label>Full Name</label><input type="text" id="profileName" placeholder="Your full name"><label>Email</label><input type="email" id="profileEmail" placeholder="you@example.com"><p style="font-size:12px;color:#888;margin:2px 0 0;">You can change this to a different email at any time.</p><label>Status</label><select id="profileStatus"><option value="">— Select a status —</option><option>🟢 Available</option><option>📚 Studying</option><option>💼 Working</option><option>🎓 Job seeking</option><option>⚪ Away</option><option>🔴 Do not disturb</option></select><label>Headline / Background</label><input type="text" id="profileBackground" placeholder="e.g. Aspiring HVAC Technician · CHCN Level 2"><label>About / Bio</label><textarea id="profileBio" placeholder="Tell others about yourself, your goals and the skills you are building..." style="min-height:90px;"></textarea><button type="button" class="btn btn-outline btn-sm" style="margin-top:8px;" onclick="startVoiceInput('profileBio',this)">🎤 Voice Input</button>
+<h4 style="margin-top:26px;">Contact</h4><label>Phone / Contact number (include your country code, any country)</label><input type="tel" id="profilePhone" placeholder="e.g. +1 876 555 0123" inputmode="tel"><p style="font-size:12px;color:#888;margin:2px 0 0;">Enter any country's number — include the + and country/area code.</p>
+<h4 style="margin-top:26px;">Home Address</h4><label>Country</label><input type="text" id="profileCountry" placeholder="Country"><label>Street address (line 1)</label><input type="text" id="profileAddr1" placeholder="House number and street"><label>Street address (line 2, optional)</label><input type="text" id="profileAddr2" placeholder="Apartment, suite, unit, building (optional)"><label>City / Town</label><input type="text" id="profileCity" placeholder="City or town"><label>State / Province / Parish / Region</label><input type="text" id="profileState" placeholder="State, province, parish or region"><label>ZIP / Postal code</label><input type="text" id="profileZip" placeholder="ZIP or postal code">
+<h4 style="margin-top:26px;">Personal</h4><label>Gender</label><select id="profileGender"><option value="">— Select —</option><option>Male</option><option>Female</option><option>Non-binary</option><option>Other</option><option>Prefer not to say</option></select><label>Marital status</label><select id="profileMarital"><option value="">— Select —</option><option>Single</option><option>In a relationship</option><option>Engaged</option><option>Married</option><option>Domestic partnership</option><option>Separated</option><option>Divorced</option><option>Widowed</option><option>Prefer not to say</option></select><label>Type of relationship</label><select id="profileRelationship"><option value="">— Select —</option><option>Not applicable</option><option>Dating</option><option>Committed relationship</option><option>Long-distance relationship</option><option>Open relationship</option><option>Civil union</option><option>Married</option><option>Prefer not to say</option></select><label>Nationality</label><input type="text" id="profileNationality" placeholder="e.g. Jamaican"><label>Blood type</label><select id="profileBloodType"><option value="">— Select —</option><option>A+</option><option>A−</option><option>B+</option><option>B−</option><option>AB+</option><option>AB−</option><option>O+</option><option>O−</option><option>Don't know</option><option>Prefer not to say</option></select><label>Date of birth</label><div class="chcn-dob-row"><select id="profileDobMonth" aria-label="Birth month"><option value="">Month</option></select><select id="profileDobDay" aria-label="Birth day"><option value="">Day</option></select><select id="profileDobYear" aria-label="Birth year"><option value="">Year</option></select></div><p id="profileAge" style="font-size:13px;color:#555;margin:4px 0 0;"></p>
+<h4 style="margin-top:26px;">Identification documents</h4><p style="font-size:12px;color:#888;margin:2px 0 10px;">Upload copies of your IDs (kept privately on this device only). You can add, replace, view, remove and delete each one.</p><div id="chcnIdDocsMount"></div>
+<label style="margin-top:18px;">Privacy</label><div class="settings-row"><label class="switch-label"><input type="checkbox" id="privacyProfilePublic" checked> Show my profile to other learners</label></div><div class="settings-row"><label class="switch-label"><input type="checkbox" id="privacyShowProgress"> Show my course progress on my profile</label></div><div class="settings-row"><label class="switch-label"><input type="checkbox" id="privacyAllowMessages" checked> Allow other learners to message me</label></div><button class="btn btn-primary" style="margin-top:20px;" onclick="saveProfile()">Save Profile</button>
+<h4 style="margin-top:32px;">Account status</h4><p id="accountStatusText" style="font-size:13px;color:#888;margin-bottom:8px;">Your account is active.</p><button type="button" class="btn btn-outline btn-sm" id="deactivateBtn" onclick="chcnToggleAccountActive()">Deactivate my account</button><p style="font-size:12px;color:#888;margin-top:8px;">Deactivating hides your profile and pauses activity. You can reactivate any time by signing in and pressing Reactivate — nothing is deleted.</p></div>
+        <div class="account-panel" id="panel-enrolled"><h3>Enrolled Courses</h3><div id="enrolledList"></div><p id="noEnrolled" style="color:#888;font-size:14px;">No enrolled courses yet. <a style="color:var(--primary);cursor:pointer;" onclick="navigate('courses')">Browse courses</a></p></div>
+        <div class="account-panel" id="panel-progress"><h3>My Progress</h3><div id="progressList"></div><p id="noProgress" style="color:#888;font-size:14px;">Start a course to track your progress.</p></div>
+        <div class="account-panel" id="panel-certificates"><h3>Certificates</h3><div id="certificateList"></div><p id="noCerts" style="color:#888;font-size:14px;">Complete a course to earn your certificate.</p></div>
+        <div class="account-panel" id="panel-career"><div id="chcnCareerMount"></div></div>
+        <div class="account-panel" id="panel-chat"><h3>Messages</h3><div class="chat-body" id="chatBody"></div><div class="chat-input-row"><input type="text" id="chatInput" placeholder="Type a message..." onkeypress="if(event.key==='Enter')sendMessage()"><button class="voice-btn" onclick="startVoiceInput('chatInput',this)" title="Voice input">🎤</button><button onclick="sendMessage()">Send</button></div></div>
+        <div class="account-panel" id="panel-wishlist"><h3>Wishlist</h3><div id="wishlistList"></div><p id="noWishlist" style="color:#888;font-size:14px;">Your wishlist is empty. <a style="color:var(--primary);cursor:pointer;" onclick="navigate('courses')">Browse courses</a></p></div>
+        <div class="account-panel" id="panel-orders"><h3>My Orders</h3><div id="orderList"></div><p id="noOrders" style="color:#888;font-size:14px;">No orders yet.</p></div>
+        <div class="account-panel" id="panel-settings"><h3>Settings</h3><h4>Change Password</h4><label>Current Password</label><input type="password" id="currentPass" placeholder="Current password"><label>New Password</label><input type="password" id="newPass" placeholder="New password"><label>Confirm New Password</label><input type="password" id="confirmPass" placeholder="Confirm new password"><button class="btn btn-primary" style="margin-top:20px;" onclick="handleChangePassword()">Update Password</button><h4 style="margin-top:35px;">Notifications</h4><div class="settings-row"><label class="switch-label"><input type="checkbox" checked> Email notifications for course updates</label></div><div class="settings-row"><label class="switch-label"><input type="checkbox" checked> Email notifications for new quizzes</label></div><div class="settings-row"><label class="switch-label"><input type="checkbox"> Email notifications for promotions</label></div><h4 style="margin-top:35px;">Delete Account</h4><p style="color:#888;font-size:14px;">Once you delete your account, there is no going back.</p><button class="btn" style="background:#e74c3c;color:#fff;margin-top:10px;font-size:13px;padding:10px 20px;" onclick="handleDeleteAccount()">Delete My Account</button></div>
+      </div>
+    </div></div></section>
+  </div>
+
+  <div id="page-course-level1" style="display:none">
+    <section class="page-header"><h1>Level 1 Security Officer Training</h1><p>Step into the world of professional security</p></section>
+    <section class="course-detail"><div class="container">
+      <div class="course-detail-main">
+        <div class="course-detail-tabs" id="course-detail-tabs-level1">
+          <div class="tab active" onclick="switchCourseTab(event,'lvl1-desc','level1')">Description</div>
+          <div class="tab" onclick="switchCourseTab(event,'lvl1-curriculum','level1')">Curriculum</div>
+          <div class="tab" onclick="switchCourseTab(event,'lvl1-quizzes','level1')">Quizzes</div>
+          <div class="tab" onclick="switchCourseTab(event,'lvl1-reviews','level1')">Reviews</div>
+        </div>
+        <div class="tab-content active" id="lvl1-desc"><div class="course-desc"><p>The Professional Security Officer Training Program is a modern, real-world security certification.</p><h3>What You Will Learn</h3><p>Industrial security, retail security, hospitality security, patrol operations, gatehouse operations, customer-facing security, residential security, and emergency response.</p><h3>Certificate</h3><p><strong>🎓 Certified Professional Security Officer (CPSO)</strong></p><div style="margin-top:25px;"><button class="btn btn-primary" id="enroll-btn-level1" onclick="enrollAndStart('Level 1 Security Officer Training','lvl1-curriculum','course-detail-tabs-level1')">Enroll Now</button></div></div></div>
+        <div class="tab-content" id="lvl1-curriculum"><div id="lvl1-curriculum-content"></div></div>
+        <div class="tab-content" id="lvl1-quizzes"><div id="lvl1-quiz-list"></div></div>
+        <div class="tab-content" id="lvl1-reviews"><div id="lvl1-reviews-content"></div></div>
+      </div>
+      <div class="course-sidebar"><div class="sidebar-header"><div class="price">Free</div><p style="font-size:14px;opacity:.8;margin-top:5px;">Professional Certificate Included</p></div><div class="sidebar-body"><div class="detail-row"><span class="label">Instructor</span><span class="value">Ravaun Richards</span></div><div class="detail-row"><span class="label">Category</span><span class="value">Level 1 Security Officer</span></div><div class="detail-row"><span class="label">Students</span><span class="value">0 Enrolled</span></div><div class="detail-row"><span class="label">Lessons</span><span class="value">32</span></div><div class="detail-row"><span class="label">Duration</span><span class="value">Self-Paced</span></div><div class="detail-row"><span class="label">Level</span><span class="value">Beginner</span></div><div class="detail-row"><span class="label">Certificate</span><span class="value">CPSO</span></div><div class="detail-row"><span class="label">Access</span><span class="value">All Devices</span></div><button class="btn btn-primary enroll-btn" id="enroll-btn-level1-side" onclick="enrollAndStart('Level 1 Security Officer Training','lvl1-curriculum','course-detail-tabs-level1')">Enroll Now</button><button class="btn btn-outline" style="width:100%;margin-top:10px;" onclick="toggleWishlist(this,'Level 1 Security Officer Training')">♡ Add to Wishlist</button><div class="related-courses"><h4>Related Courses</h4><div class="related-card" onclick="navigate('course-assessment')"><div class="rc-icon" style="background:#533483">📋</div><div class="rc-info"><h5>Same Day Assessment</h5><span>Free</span></div></div><div class="related-card" onclick="navigate('course-senior')"><div class="rc-icon" style="background:#c73a14">🎓</div><div class="rc-info"><h5>AISS-S Senior</h5><span>Free</span></div></div></div></div></div>
+    </div></section>
+  </div>
+
+  <div id="page-course-assessment" style="display:none">
+    <section class="page-header"><h1>Same Day Security Assessment</h1><p>Fast-track certification for experienced officers</p></section>
+    <section class="course-detail"><div class="container">
+      <div class="course-detail-main">
+        <div class="course-detail-tabs" id="course-detail-tabs-assessment">
+          <div class="tab active" onclick="switchCourseTab(event,'assess-desc','assessment')">Description</div>
+          <div class="tab" onclick="switchCourseTab(event,'assess-curriculum','assessment')">Curriculum</div>
+          <div class="tab" onclick="switchCourseTab(event,'assess-quizzes','assessment')">Quizzes</div>
+          <div class="tab" onclick="switchCourseTab(event,'assess-reviews','assessment')">Reviews</div>
+        </div>
+        <div class="tab-content active" id="assess-desc"><div class="course-desc"><p>The <strong>Same Day Security Assessment</strong> is designed for experienced security officers with 6+ months field experience.</p><h3>Certificate</h3><p><strong>🎓 CSO-1 Certificate</strong></p><p style="color:#e74c3c;font-weight:600;">NOT designed for complete beginners with no security experience.</p><div style="margin-top:25px;"><button class="btn btn-primary" id="enroll-btn-assessment" onclick="enrollAndStart('Same Day Security Assessment','assess-curriculum','course-detail-tabs-assessment')">Enroll Now</button></div></div></div>
+        <div class="tab-content" id="assess-curriculum"><div id="assess-curriculum-content"></div></div>
+        <div class="tab-content" id="assess-quizzes"><div id="assess-quiz-list"></div></div>
+        <div class="tab-content" id="assess-reviews"><div id="assess-reviews-content"></div></div>
+      </div>
+      <div class="course-sidebar"><div class="sidebar-header"><div class="price">Free</div><p style="font-size:14px;opacity:.8;margin-top:5px;">CSO-1 Certificate Included</p></div><div class="sidebar-body"><div class="detail-row"><span class="label">Instructor</span><span class="value">Ravaun Richards</span></div><div class="detail-row"><span class="label">Category</span><span class="value">Security Assessment</span></div><div class="detail-row"><span class="label">Students</span><span class="value">0 Enrolled</span></div><div class="detail-row"><span class="label">Lessons</span><span class="value">2</span></div><div class="detail-row"><span class="label">Duration</span><span class="value">30 Minutes</span></div><div class="detail-row"><span class="label">Certificate</span><span class="value">CSO-1</span></div><button class="btn btn-primary enroll-btn" id="enroll-btn-assessment-side" onclick="enrollAndStart('Same Day Security Assessment','assess-curriculum','course-detail-tabs-assessment')">Enroll Now</button><button class="btn btn-outline" style="width:100%;margin-top:10px;" onclick="toggleWishlist(this,'Same Day Security Assessment')">♡ Add to Wishlist</button><div class="related-courses"><h4>Related Courses</h4><div class="related-card" onclick="navigate('course-level1')"><div class="rc-icon" style="background:#0f3460">🛡️</div><div class="rc-info"><h5>Level 1 Training</h5><span>Free</span></div></div><div class="related-card" onclick="navigate('course-senior')"><div class="rc-icon" style="background:#c73a14">🎓</div><div class="rc-info"><h5>AISS-S Senior</h5><span>Free</span></div></div></div></div></div>
+    </div></section>
+  </div>
+
+  <div id="page-course-senior" style="display:none">
+    <section class="page-header"><h1>AISS-S Senior Supervisor</h1><p>Lead. Oversee. Decide with confidence.</p></section>
+    <section class="course-detail"><div class="container">
+      <div class="course-detail-main">
+        <div class="course-detail-tabs" id="course-detail-tabs-senior">
+          <div class="tab active" onclick="switchCourseTab(event,'senior-desc','senior')">Description</div>
+          <div class="tab" onclick="switchCourseTab(event,'senior-curriculum','senior')">Curriculum</div>
+          <div class="tab" onclick="switchCourseTab(event,'senior-quizzes','senior')">Quizzes</div>
+          <div class="tab" onclick="switchCourseTab(event,'senior-reviews','senior')">Reviews</div>
+        </div>
+        <div class="tab-content active" id="senior-desc"><div class="course-desc"><p>The <strong>AISS-S — Senior</strong> course is for experienced security personnel ready to operate at a higher supervisory level.</p><h3>What You Will Learn</h3><ul style="padding-left:20px;list-style:disc;line-height:2;"><li>Senior Supervisor role and operational leadership</li><li>Risk assessment and security planning</li><li>Discipline, conduct control and corrective action</li><li>Incident leadership and crisis response</li><li>Report review and documentation standards</li><li>Client communication and service quality</li><li>Compliance monitoring and ethics</li></ul><h3>Certificate</h3><p><strong>🎓 Advanced Security Operations Specialist (ASOS)</strong></p><div style="margin-top:25px;"><button class="btn btn-primary" id="enroll-btn-senior" onclick="enrollAndStart('AISS-S Senior Supervisor','senior-curriculum','course-detail-tabs-senior')">Enroll Now — Free</button></div></div></div>
+        <div class="tab-content" id="senior-curriculum"><div id="senior-curriculum-content"></div></div>
+        <div class="tab-content" id="senior-quizzes"><div id="senior-quiz-list"></div></div>
+        <div class="tab-content" id="senior-reviews"><div id="senior-reviews-content"></div></div>
+      </div>
+      <div class="course-sidebar"><div class="sidebar-header"><div class="price" style="color:var(--success);">Free</div><p style="font-size:14px;opacity:.8;margin-top:5px;">ASOS Certificate Included</p></div><div class="sidebar-body"><div class="detail-row"><span class="label">Instructor</span><span class="value">Ravaun Richards</span></div><div class="detail-row"><span class="label">Category</span><span class="value">Level 2 Supervisor</span></div><div class="detail-row"><span class="label">Lessons</span><span class="value">10</span></div><div class="detail-row"><span class="label">Duration</span><span class="value">8–12 Weeks</span></div><div class="detail-row"><span class="label">Level</span><span class="value">Advanced</span></div><div class="detail-row"><span class="label">Certificate</span><span class="value">ASOS</span></div><button class="btn btn-primary enroll-btn" id="enroll-btn-senior-side" onclick="enrollAndStart('AISS-S Senior Supervisor','senior-curriculum','course-detail-tabs-senior')">Enroll Now — Free</button><button class="btn btn-outline" style="width:100%;margin-top:10px;" onclick="toggleWishlist(this,'AISS-S Senior Supervisor')">♡ Add to Wishlist</button></div></div>
+    </div></section>
+  </div>
+
+  <div id="page-course-junior" style="display:none">
+    <section class="page-header"><h1>AISS-J Junior Supervisor</h1><p>Step up to first-line supervision</p></section>
+    <section class="course-detail"><div class="container">
+      <div class="course-detail-main">
+        <div class="course-detail-tabs" id="course-detail-tabs-junior">
+          <div class="tab active" onclick="switchCourseTab(event,'junior-desc','junior')">Description</div>
+          <div class="tab" onclick="switchCourseTab(event,'junior-curriculum','junior')">Curriculum</div>
+          <div class="tab" onclick="switchCourseTab(event,'junior-quizzes','junior')">Quizzes</div>
+          <div class="tab" onclick="switchCourseTab(event,'junior-reviews','junior')">Reviews</div>
+        </div>
+        <div class="tab-content active" id="junior-desc"><div class="course-desc"><p>The <strong>AISS-J — Junior</strong> course prepares experienced security officers for first-line supervision roles.</p><h3>What You Will Learn</h3><ul style="padding-left:20px;list-style:disc;line-height:2;"><li>Junior Supervisor role and responsibilities</li><li>Team leadership and shift management</li><li>Incident response and reporting</li><li>Access control oversight</li><li>Patrol supervision and quality standards</li><li>Professional discipline and conduct</li></ul><h3>Certificate</h3><p><strong>🎓 Advanced Professional Security Officer (APSO)</strong></p><div style="margin-top:25px;"><button class="btn btn-primary" id="enroll-btn-junior" onclick="enrollAndStart('AISS-J Junior Supervisor','junior-curriculum','course-detail-tabs-junior')">Enroll Now — Free</button></div></div></div>
+        <div class="tab-content" id="junior-curriculum"><div id="junior-curriculum-content"></div></div>
+        <div class="tab-content" id="junior-quizzes"><div id="junior-quiz-list"></div></div>
+        <div class="tab-content" id="junior-reviews"><div id="junior-reviews-content"></div></div>
+      </div>
+      <div class="course-sidebar"><div class="sidebar-header"><div class="price" style="color:var(--success);">Free</div><p style="font-size:14px;opacity:.8;margin-top:5px;">APSO Certificate Included</p></div><div class="sidebar-body"><div class="detail-row"><span class="label">Instructor</span><span class="value">Ravaun Richards</span></div><div class="detail-row"><span class="label">Category</span><span class="value">Level 1 Supervisor</span></div><div class="detail-row"><span class="label">Lessons</span><span class="value">10</span></div><div class="detail-row"><span class="label">Duration</span><span class="value">8–10 Weeks</span></div><div class="detail-row"><span class="label">Level</span><span class="value">Intermediate</span></div><div class="detail-row"><span class="label">Certificate</span><span class="value">APSO</span></div><button class="btn btn-primary enroll-btn" id="enroll-btn-junior-side" onclick="enrollAndStart('AISS-J Junior Supervisor','junior-curriculum','course-detail-tabs-junior')">Enroll Now — Free</button><button class="btn btn-outline" style="width:100%;margin-top:10px;" onclick="toggleWishlist(this,'AISS-J Junior Supervisor')">♡ Add to Wishlist</button></div></div>
+    </div></section>
+  </div>
+
+  <div id="page-course-driver-beginner" style="display:none">
+    <section class="page-header"><h1>Driver's Course — Beginner</h1><p>Start your journey to becoming a safe, confident driver</p></section>
+    <section class="course-detail"><div class="container">
+      <div class="course-detail-main">
+        <div class="course-detail-tabs" id="course-detail-tabs-drvb">
+          <div class="tab active" onclick="switchCourseTab(event,'drvb-desc','drvb')">Description</div>
+          <div class="tab" onclick="switchCourseTab(event,'drvb-curriculum','drvb')">Curriculum</div>
+          <div class="tab" onclick="switchCourseTab(event,'drvb-quizzes','drvb')">Quizzes</div>
+          <div class="tab" onclick="switchCourseTab(event,'drvb-reviews','drvb')">Reviews</div>
+        </div>
+        <div class="tab-content active" id="drvb-desc"><div class="course-desc"><p>The <strong>Driver's Course — Beginner</strong> is built for brand-new drivers. Learn everything from getting to know your vehicle to road rules and safe driving habits.</p><h3>What You Will Learn</h3><ul style="padding-left:20px;list-style:disc;line-height:2;"><li>Vehicle controls, mirrors and seating position</li><li>Jamaican road code, signs, signals and markings</li><li>Starting, moving off, steering, turning and changing gears</li><li>Observation, safe following distance and safety checks</li></ul><h3>Certificate</h3><p><strong>🎓 Certified Driver — Beginner Level (CDL-B)</strong></p><div style="margin-top:25px;"><button class="btn btn-primary" id="enroll-btn-drvb" onclick="enrollAndStart('Driver\'s Course — Beginner','drvb-curriculum','course-detail-tabs-drvb')">Enroll Now — Free</button></div></div></div>
+        <div class="tab-content" id="drvb-curriculum"><div id="drvb-curriculum-content"></div></div>
+        <div class="tab-content" id="drvb-quizzes"><div id="drvb-quiz-list"></div></div>
+        <div class="tab-content" id="drvb-reviews"><div id="drvb-reviews-content"></div></div>
+      </div>
+      <div class="course-sidebar"><div class="sidebar-header"><div class="price" style="color:var(--success);">Free</div><p style="font-size:14px;opacity:.8;margin-top:5px;">CDL-B Certificate Included</p></div><div class="sidebar-body"><div class="detail-row"><span class="label">Instructor</span><span class="value">Ravaun Richards</span></div><div class="detail-row"><span class="label">Category</span><span class="value">Driver's Course</span></div><div class="detail-row"><span class="label">Lessons</span><span class="value">14</span></div><div class="detail-row"><span class="label">Duration</span><span class="value">Self-Paced</span></div><div class="detail-row"><span class="label">Level</span><span class="value">Beginner</span></div><div class="detail-row"><span class="label">Certificate</span><span class="value">CDL-B</span></div><button class="btn btn-primary enroll-btn" id="enroll-btn-drvb-side" onclick="enrollAndStart('Driver\'s Course — Beginner','drvb-curriculum','course-detail-tabs-drvb')">Enroll Now — Free</button><button class="btn btn-outline" style="width:100%;margin-top:10px;" onclick="toggleWishlist(this,'Driver\'s Course — Beginner')">♡ Add to Wishlist</button><div class="related-courses"><h4>Related Courses</h4><div class="related-card" onclick="navigate('course-driver-intermediate')"><div class="rc-icon" style="background:#0f3460">🚗</div><div class="rc-info"><h5>Driver — Intermediate</h5><span>Free</span></div></div><div class="related-card" onclick="navigate('course-driver-advanced')"><div class="rc-icon" style="background:#c73a14">🏎️</div><div class="rc-info"><h5>Driver — Advanced</h5><span>Free</span></div></div></div></div></div>
+    </div></section>
+  </div>
+
+  <div id="page-course-driver-intermediate" style="display:none">
+    <section class="page-header"><h1>Driver's Course — Intermediate</h1><p>Build real-world driving confidence</p></section>
+    <section class="course-detail"><div class="container">
+      <div class="course-detail-main">
+        <div class="course-detail-tabs" id="course-detail-tabs-drvi">
+          <div class="tab active" onclick="switchCourseTab(event,'drvi-desc','drvi')">Description</div>
+          <div class="tab" onclick="switchCourseTab(event,'drvi-curriculum','drvi')">Curriculum</div>
+          <div class="tab" onclick="switchCourseTab(event,'drvi-quizzes','drvi')">Quizzes</div>
+          <div class="tab" onclick="switchCourseTab(event,'drvi-reviews','drvi')">Reviews</div>
+        </div>
+        <div class="tab-content active" id="drvi-desc"><div class="course-desc"><p>The <strong>Driver's Course — Intermediate</strong> helps you drive confidently in real traffic, master junctions and roundabouts, park and maneuver, and handle adverse conditions.</p><h3>What You Will Learn</h3><ul style="padding-left:20px;list-style:disc;line-height:2;"><li>Driving in traffic, lane discipline and overtaking</li><li>Junctions, roundabouts and right-of-way rules</li><li>Parallel parking, reversing, three-point turns and hill starts</li><li>Driving in rain, poor visibility and at night</li></ul><h3>Certificate</h3><p><strong>🎓 Certified Driver — Intermediate Level (CDL-I)</strong></p><div style="margin-top:25px;"><button class="btn btn-primary" id="enroll-btn-drvi" onclick="enrollAndStart('Driver\'s Course — Intermediate','drvi-curriculum','course-detail-tabs-drvi')">Enroll Now — Free</button></div></div></div>
+        <div class="tab-content" id="drvi-curriculum"><div id="drvi-curriculum-content"></div></div>
+        <div class="tab-content" id="drvi-quizzes"><div id="drvi-quiz-list"></div></div>
+        <div class="tab-content" id="drvi-reviews"><div id="drvi-reviews-content"></div></div>
+      </div>
+      <div class="course-sidebar"><div class="sidebar-header"><div class="price" style="color:var(--success);">Free</div><p style="font-size:14px;opacity:.8;margin-top:5px;">CDL-I Certificate Included</p></div><div class="sidebar-body"><div class="detail-row"><span class="label">Instructor</span><span class="value">Ravaun Richards</span></div><div class="detail-row"><span class="label">Category</span><span class="value">Driver's Course</span></div><div class="detail-row"><span class="label">Lessons</span><span class="value">13</span></div><div class="detail-row"><span class="label">Duration</span><span class="value">Self-Paced</span></div><div class="detail-row"><span class="label">Level</span><span class="value">Intermediate</span></div><div class="detail-row"><span class="label">Certificate</span><span class="value">CDL-I</span></div><button class="btn btn-primary enroll-btn" id="enroll-btn-drvi-side" onclick="enrollAndStart('Driver\'s Course — Intermediate','drvi-curriculum','course-detail-tabs-drvi')">Enroll Now — Free</button><button class="btn btn-outline" style="width:100%;margin-top:10px;" onclick="toggleWishlist(this,'Driver\'s Course — Intermediate')">♡ Add to Wishlist</button><div class="related-courses"><h4>Related Courses</h4><div class="related-card" onclick="navigate('course-driver-beginner')"><div class="rc-icon" style="background:#0f3460">🚙</div><div class="rc-info"><h5>Driver — Beginner</h5><span>Free</span></div></div><div class="related-card" onclick="navigate('course-driver-advanced')"><div class="rc-icon" style="background:#c73a14">🏎️</div><div class="rc-info"><h5>Driver — Advanced</h5><span>Free</span></div></div></div></div></div>
+    </div></section>
+  </div>
+
+  <div id="page-course-driver-advanced" style="display:none">
+    <section class="page-header"><h1>Driver's Course — Advanced</h1><p>Master defensive and professional driving</p></section>
+    <section class="course-detail"><div class="container">
+      <div class="course-detail-main">
+        <div class="course-detail-tabs" id="course-detail-tabs-drva">
+          <div class="tab active" onclick="switchCourseTab(event,'drva-desc','drva')">Description</div>
+          <div class="tab" onclick="switchCourseTab(event,'drva-curriculum','drva')">Curriculum</div>
+          <div class="tab" onclick="switchCourseTab(event,'drva-quizzes','drva')">Quizzes</div>
+          <div class="tab" onclick="switchCourseTab(event,'drva-reviews','drva')">Reviews</div>
+        </div>
+        <div class="tab-content active" id="drva-desc"><div class="course-desc"><p>The <strong>Driver's Course — Advanced</strong> develops defensive driving, highway skills, emergency handling and professional driving techniques.</p><h3>What You Will Learn</h3><ul style="padding-left:20px;list-style:disc;line-height:2;"><li>Hazard perception and anticipating other road users</li><li>Joining/leaving highways and high-speed lane management</li><li>Skid control, braking, breakdowns and accident procedures</li><li>Eco-driving, fuel efficiency and long-distance driving</li></ul><h3>Certificate</h3><p><strong>🎓 Certified Driver — Advanced Level (CDL-A)</strong></p><div style="margin-top:25px;"><button class="btn btn-primary" id="enroll-btn-drva" onclick="enrollAndStart('Driver\'s Course — Advanced','drva-curriculum','course-detail-tabs-drva')">Enroll Now — Free</button></div></div></div>
+        <div class="tab-content" id="drva-curriculum"><div id="drva-curriculum-content"></div></div>
+        <div class="tab-content" id="drva-quizzes"><div id="drva-quiz-list"></div></div>
+        <div class="tab-content" id="drva-reviews"><div id="drva-reviews-content"></div></div>
+      </div>
+      <div class="course-sidebar"><div class="sidebar-header"><div class="price" style="color:var(--success);">Free</div><p style="font-size:14px;opacity:.8;margin-top:5px;">CDL-A Certificate Included</p></div><div class="sidebar-body"><div class="detail-row"><span class="label">Instructor</span><span class="value">Ravaun Richards</span></div><div class="detail-row"><span class="label">Category</span><span class="value">Driver's Course</span></div><div class="detail-row"><span class="label">Lessons</span><span class="value">13</span></div><div class="detail-row"><span class="label">Duration</span><span class="value">Self-Paced</span></div><div class="detail-row"><span class="label">Level</span><span class="value">Advanced</span></div><div class="detail-row"><span class="label">Certificate</span><span class="value">CDL-A</span></div><button class="btn btn-primary enroll-btn" id="enroll-btn-drva-side" onclick="enrollAndStart('Driver\'s Course — Advanced','drva-curriculum','course-detail-tabs-drva')">Enroll Now — Free</button><button class="btn btn-outline" style="width:100%;margin-top:10px;" onclick="toggleWishlist(this,'Driver\'s Course — Advanced')">♡ Add to Wishlist</button><div class="related-courses"><h4>Related Courses</h4><div class="related-card" onclick="navigate('course-driver-beginner')"><div class="rc-icon" style="background:#0f3460">🚙</div><div class="rc-info"><h5>Driver — Beginner</h5><span>Free</span></div></div><div class="related-card" onclick="navigate('course-driver-intermediate')"><div class="rc-icon" style="background:#533483">🚗</div><div class="rc-info"><h5>Driver — Intermediate</h5><span>Free</span></div></div></div></div></div>
+    </div></section>
+  </div>
+
+  <div id="page-map" style="display:none">
+    <section class="page-header"><h1>Map &amp; Navigation</h1><p>Live GPS location, speedometer, search, satellite view and saved places</p></section>
+    <section style="padding:20px 0;"><div class="container">
+      <div class="map-toolbar">
+        <input type="text" id="mapSearchInput" placeholder="Search a place or address..." onkeypress="if(event.key==='Enter')searchPlace()">
+        <button class="btn btn-sm" onclick="searchPlace()">🔍 Search</button>
+        <button class="btn btn-sm" onclick="chcnSearchSaved()" title="Find one of your saved places (works offline)">⭐ Find saved</button>
+        <button class="btn btn-sm" onclick="startVoiceInput('mapSearchInput',this)" title="Voice search">🎤</button>
+        <button class="btn btn-sm btn-primary" onclick="locateMe()">📍 Locate Me</button>
+        <button class="btn btn-sm" onclick="chcnRecenter()" title="Re-centre and follow your live location">🎯 Recenter</button>
+        <button class="btn btn-sm" onclick="stopLocate()">⏹ Stop</button>
+        <button class="btn btn-sm" onclick="chcnToggleCompass(this)" title="Live compass heading">🧭 Compass</button>
+        <button class="btn btn-sm" onclick="chcnToggleMeasure(this)" title="Measure distance between points">📏 Measure</button>
+        <button class="btn btn-sm" onclick="chcnShareLocation()" title="Share or copy your coordinates">📤 Share location</button>
+        <button class="btn btn-sm" onclick="chcnWhereAmI()" title="Look up the address where you are (needs internet)">🏠 My address</button>
+        <button class="btn btn-sm" onclick="chcnToggleDirections()" title="Turn-by-turn driving directions (needs internet)">🚗 Directions</button>
+        <button class="btn btn-sm" onclick="openGoogleEarth()" title="Open a 3D view in Google Earth">🌍 Google Earth (3D)</button>
+        <button class="btn btn-sm" onclick="chcnDownloadArea()" title="Download the current area so it works with no internet">⬇️ Save area offline</button>
+        <button class="btn btn-sm" onclick="chcnClearOffline()" title="Delete stored offline map tiles">🗑 Clear offline</button>
+        <button class="btn btn-sm" onclick="saveCurrentMarker()">⭐ Save Place</button>
+      </div>
+      <div id="dirBox" class="map-toolbar" hidden style="margin-top:8px;flex-wrap:wrap;align-items:center;gap:6px;">
+        <input type="text" id="dirDest" placeholder="Destination (address or place)" onkeypress="if(event.key==='Enter')chcnGetDirections()" style="min-width:220px;">
+        <button class="btn btn-sm btn-primary" onclick="chcnGetDirections()">🧭 Get directions</button>
+        <label style="font-size:13px;display:inline-flex;align-items:center;gap:4px;"><input type="checkbox" id="dirVoice" checked> Voice guidance</label>
+        <button class="btn btn-sm" onclick="chcnSpeakSteps()" title="Read the directions aloud">🔊 Speak</button>
+        <div id="dirStatus" class="map-coords" style="flex-basis:100%;margin-top:6px;">Directions need an internet connection. Enter a destination; the route starts from your live GPS location.</div>
+      </div>
+      <div class="map-stats"><div class="speedo"><span id="speedValue">0</span><small>km/h</small></div><div class="speedo"><span id="headingValue">--</span><small>heading</small></div><div class="map-coords" id="mapCoords">Location not started</div></div>
+      <div class="map-coords" id="offlineStatus" style="margin:6px 0 0;">Checking offline map storage…</div>
+      <div id="mapMain" class="map-canvas"></div>
+      <p style="color:#888;font-size:13px;margin-top:12px;">GPS location, the live speedometer and your saved places work fully offline. Map imagery uses OpenStreetMap/satellite tiles: any area you view while online is saved automatically for offline use, and “⬇️ Save area offline” pre-downloads the current view (and a little deeper) so it works with no signal. 🌍 Google Earth (3D) opens Google Earth in your browser and needs internet. Use the layer control (top-right) to switch Street/Satellite.</p>
+    </div></section>
+  </div>
+
+  <div id="page-payment" style="display:none">
+    <section class="page-header"><h1>Payment</h1><p>Pay your course tuition by secure bank transfer</p></section>
+    <section style="padding:20px 0;"><div class="container">
+      <div class="pay-intro"><p>To enroll in a paid course, make a bank transfer or deposit to any of the accounts below, then send your receipt to the founder so your access can be activated. All accounts are in the name of <strong>Ravaun Richards</strong>.</p></div>
+      <div class="pay-grid">
+        <div class="pay-card"><h3>National Commercial Bank (NCB)</h3><div class="pay-row"><span>Account #</span><b>844158459</b><button class="copy-btn" onclick="copyText('844158459','Account number')">Copy</button></div><div class="pay-row"><span>Type</span><b>Savings</b></div><div class="pay-row"><span>Member Name</span><b>Ravaun Richards</b></div></div>
+        <div class="pay-card"><h3>Jamaica National (JN)</h3><div class="pay-row"><span>Account #</span><b>20000219970</b><button class="copy-btn" onclick="copyText('20000219970','Account number')">Copy</button></div><div class="pay-row"><span>Type</span><b>Chequing</b></div><div class="pay-row"><span>Member Name</span><b>Ravaun Richards</b></div></div>
+        <div class="pay-card"><h3>First Caribbean Bank (CIBC)</h3><div class="pay-row"><span>Account #</span><b>1002353405</b><button class="copy-btn" onclick="copyText('1002353405','Account number')">Copy</button></div><div class="pay-row"><span>Type</span><b>Chequing</b></div><div class="pay-row"><span>Member Name</span><b>Ravaun Richards</b></div></div>
+      </div>
+      <div class="pay-actions">
+        <button class="btn btn-primary" onclick="emailPaymentProof()">✉️ Email Payment Receipt to Founder</button>
+        <button class="btn btn-outline" onclick="whatsappPayment()">💬 Confirm via WhatsApp</button>
+      </div>
+      <div class="pay-note"><h4>About card payments</h4><p>Secure credit / debit card checkout requires a licensed payment processor (such as Stripe or PayPal) connected to a live web server. For your safety we do <strong>not</strong> collect raw card numbers inside the app. Bank transfer above is available now; when you are ready to accept cards online, this can be connected to a processor — see the notes provided by your developer.</p></div>
+    </div></section>
+  </div>
+
+  <div id="page-lesson" style="display:none">
+    <section class="page-header"><h1 id="lesson-page-title">Lesson</h1><p id="lesson-page-subtitle"></p></section>
+    <div class="lesson-viewer" id="lesson-viewer-content"></div>
+  </div>
+
+  <div id="page-quiz" style="display:none">
+    <section class="page-header"><h1 id="quiz-page-title">Quiz</h1><p id="quiz-page-subtitle"></p></section>
+    <div class="quiz-container" id="quiz-viewer-content"></div>
+  </div>
+
+  <div id="page-course-view" style="display:none"></div>
+  <div id="page-tiktok" style="display:none"></div>
+  <div id="page-tiktok-track" style="display:none"></div>
+  <div id="page-tiktok-admin" style="display:none"></div>
+
+  <div id="page-officetools" style="display:none"></div>
+
+  <div id="voiceHub" class="voice-hub" aria-hidden="true">
+    <div class="voice-hub-card" role="dialog" aria-modal="true" aria-labelledby="voiceHubTitle">
+      <div class="voice-hub-head"><div><span class="voice-kicker">ACCESSIBILITY &amp; LANGUAGE</span><h2 id="voiceHubTitle">Creator Hub Voice &amp; Language</h2><p>Read pages aloud, use voice commands, translate text, or talk with the site's built-in assistant.</p></div><button class="voice-close" onclick="closeVoiceHub()" aria-label="Close voice and language panel">✕</button></div>
+      <div class="voice-grid">
+        <section class="voice-card"><h3>Read Aloud</h3><p>Turn spoken reading on or off. Your device/browser supplies the available voices.</p><div class="voice-row"><button class="btn btn-primary" id="voiceToggleBtn" onclick="toggleReadAloud()">🔊 Turn On Read Aloud</button><button class="btn btn-outline" onclick="stopReadAloud()">⏹ Stop</button></div><label for="voiceSelect">Voice</label><select id="voiceSelect"></select><div class="voice-row"><label class="range-label">Speed <input id="voiceRate" type="range" min="0.6" max="1.4" step="0.05" value="1"></label><label class="range-label">Pitch <input id="voicePitch" type="range" min="0.6" max="1.4" step="0.05" value="1"></label></div></section>
+        <section class="voice-card"><h3>Voice Commands</h3><p>Say <strong>“turn on voice”</strong> or <strong>“activate voice”</strong>, then try “read this page”, “open courses”, “open jobs”, “open map”, “open payment”, or “stop speaking”.</p><button class="btn btn-primary" id="voiceCommandBtn" onclick="toggleVoiceCommands()">🎤 Activate Voice Commands</button><div id="voiceCommandStatus" class="voice-status" aria-live="polite">Voice commands are off.</div></section>
+        <section class="voice-card"><h3>Translate</h3><p>Translate text inside the app. On Android, a native translation service can be connected; on the website, translation uses the configured translation service when available.</p><label for="translateFrom">From</label><select id="translateFrom"></select><label for="translateTo">To</label><select id="translateTo"></select><textarea id="translateInput" rows="4" placeholder="Enter text to translate"></textarea><div class="voice-row"><button class="btn btn-outline" onclick="pasteIntoTranslation()">📋 Paste</button><button class="btn btn-outline" onclick="copyTranslationInput()">⧉ Copy Input</button></div><button class="btn btn-primary" onclick="translateTextInApp()">Translate</button><div id="translateOutput" class="translate-output" aria-live="polite"></div><div class="voice-row"><button class="btn btn-outline" onclick="copyTranslationOutput()">⧉ Copy Translation</button><button class="btn btn-outline" onclick="speakTranslation()">🔊 Speak Translation</button></div><div class="offline-language-box"><strong>📦 Offline language pack</strong><p>Common phrases are available offline. Full on-device translation models are downloaded once and then work without internet.</p><button class="btn btn-outline" onclick="openOfflineLanguagePack()">Open Offline Phrasebook</button></div></section>
+        <section class="voice-card voice-chat-card"><h3>Talk with Creator Hub</h3><p>Ask questions about courses, jobs, accessibility, the website, or learning. The local assistant can answer site-specific questions. Broad AI reasoning requires a configured secure AI service; no API key is embedded in this website.</p><div id="assistantMessages" class="assistant-messages" aria-live="polite"><div class="assistant-msg assistant">Hello. Ask me about Creator Hub, courses, jobs, maps, donations, accessibility, or how to use the site.</div></div><div class="assistant-input-row"><input id="assistantInput" type="text" placeholder="Ask Creator Hub..." onkeypress="if(event.key==='Enter')sendAssistantMessage()"><button class="btn btn-primary" onclick="sendAssistantMessage()">Send</button><button class="btn btn-outline" onclick="startAssistantVoice()">🎤</button></div><p id="assistantNotice" class="voice-note">For broad conversational reasoning, connect a secure server-side AI endpoint in the app configuration. Never place a private API key in client-side JavaScript.</p></section>
+      </div>
+    </div>
+  </div>
+
+  <section class="footer-sidebar"><div class="container"><div><h4>Popular Courses</h4><ul id="footerPopularCourses"><li style="list-style:none;opacity:.7;">Loading courses…</li></ul></div><div><h4>Quick Links</h4><ul><li><a onclick="navigate('index')">Home</a></li><li><a onclick="navigate('courses')">All Courses</a></li><li><a onclick="navigate('tiktok')">TikTok Services</a></li><li><a onclick="navigate('about')">About Us</a></li><li><a onclick="navigate('contact')">Contact Us</a></li></ul></div><div><h4>Working Hours</h4><table class="working-hours"><tr><td>Monday</td><td>9:30 am – 6:00 pm</td></tr><tr><td>Tuesday</td><td>9:30 am – 6:00 pm</td></tr><tr><td>Wednesday</td><td>9:30 am – 6:00 pm</td></tr><tr><td>Thursday</td><td>9:30 am – 6:00 pm</td></tr><tr><td>Friday</td><td>9:30 am – 5:00 pm</td></tr><tr><td>Saturday</td><td>Closed</td></tr><tr><td>Sunday</td><td>Closed</td></tr></table></div></div></section>
+
+  <footer class="footer"><div class="container"><div class="copyright">© 2026 Creator Hub Creator Network. All rights reserved.</div><div class="footer-links"><a onclick="navigate('courses')">Courses</a><a onclick="navigate('about')">About</a><a onclick="navigate('contact')">Contact</a></div></div></footer>
+
+  <div class="modal-overlay" id="loginModal"><div class="modal"><button class="close-btn" onclick="closeModal('loginModal')">✕</button><h2>Sign In</h2><form onsubmit="handleSignIn(event)"><label>Email</label><input type="email" placeholder="Enter your email" required><label>Password</label><input type="password" placeholder="Enter your password" required><div class="form-check"><input type="checkbox" id="remember"><label for="remember" style="margin-top:0;font-weight:400;">Remember me</label></div><button class="btn btn-primary" style="width:100%;margin-top:20px;" type="submit">Sign In</button></form><div class="form-footer"><a onclick="closeModal('loginModal');openModal('forgotModal');">Lost Password?</a> | <a onclick="closeModal('loginModal');openModal('signupModal');">Sign Up</a></div></div></div>
+
+  <div class="modal-overlay" id="signupModal"><div class="modal"><button class="close-btn" onclick="closeModal('signupModal')">✕</button><h2>Sign Up</h2><form onsubmit="handleSignUp(event)"><label>Full Name</label><input type="text" placeholder="Enter your full name" required><label>Email</label><input type="email" placeholder="Enter your email" required><label>Password</label><input type="password" placeholder="Create a password" required><button class="btn btn-primary" style="width:100%;margin-top:20px;" type="submit">Create Account</button></form><div class="success-msg">Account creation is local to this device; no email confirmation is sent by this offline website.</div><div class="form-footer">Already have an account? <a onclick="closeModal('signupModal');openModal('loginModal');">Sign In</a></div></div></div>
+
+  <div class="modal-overlay" id="forgotModal"><div class="modal"><button class="close-btn" onclick="closeModal('forgotModal')">✕</button><h2>Restore Password</h2><form onsubmit="handleForgotPassword(event)"><label>Email</label><input type="email" placeholder="Enter your email" required><button class="btn btn-primary" style="width:100%;margin-top:20px;" type="submit">Reset Local Password</button></form><div class="success-msg">Your local password will be changed on this device.</div><div class="form-footer"><a onclick="closeModal('forgotModal');openModal('loginModal');">Back to Sign In</a></div></div></div>
+
+  <div class="modal-overlay" id="contactModal"><div class="modal"><button class="close-btn" onclick="closeModal('contactModal')">✕</button><h2>Send an Enquiry</h2><p style="color:#888;font-size:13px;margin:0 0 18px;">We will get back to you as soon as possible.</p><form onsubmit="submitEnquiry(event)"><label>Full Name *</label><input type="text" id="enquiry-name" required><label>Email Address *</label><input type="email" id="enquiry-email" required><label>Message *</label><textarea id="enquiry-message" rows="4" required style="width:100%;padding:10px 12px;border:1px solid #ddd;border-radius:8px;margin-bottom:18px;font-size:14px;resize:vertical;"></textarea><button class="btn btn-primary" style="width:100%;" type="submit">Send Enquiry</button></form><p style="text-align:center;font-size:12px;color:#aaa;margin:12px 0 0;">Or WhatsApp us: +1 (876) 887-5573</p></div></div>
+
+  <div id="toast" class="toast"></div>
+  <script src="app.js"></script>
+  <script src="courses-data.js"></script>
+  <script src="quizzes-data.js"></script>
+  <script src="tiktok-services.js"></script>
+  <script src="creator-tools.js"></script>
+  <script src="media-studio.js"></script>
+  <script src="game-center.js"></script>
+  <script src="game-center-plus.js"></script>
+  <script src="game-center-expansion.js"></script>
+  <script src="chcn-game-upgrade.js"></script>
+  <script src="tiktok-course.js"></script>
+  <script src="enhance.js"></script>
+  <script src="course-integrity.js"></script>
+  <script src="global-careers.js"></script>
+  <script src="academic-music.js"></script>
+  <script src="latest-update.js"></script>
+  <script src="instrument-music.js"></script>
+  <script src="music-academy.js"></script>
+  <script src="dance-academy.js"></script>
+  <script src="drama-academy.js"></script>
+  <script src="visual-arts-academy.js"></script>
+  <script src="arts-management-academy.js"></script>
+  <script src="filter-categories.js"></script>
+  <script src="chcn-content-manager.js"></script>
+  <script src="final-patch.js"></script>
+  <script src="reliability-patch.js"></script>
+  <script src="quality-patch.js"></script>
+  <script src="master-enhancements.js"></script>
+  <script src="voice-accessibility.js"></script>
+  <script src="chcn-voice-registry.js"></script>
+  <!-- Conversational assistant + extended real voice commands (loads LAST so its
+       natural-language catch-all only runs after every specific command misses) -->
+  <script src="chcn-assistant.js"></script>
+  <script src="global-ui.js"></script>
+  <script src="global-payment.js"></script>
+  <!-- Life & Tools engines (pure, unit-tested) -->
+  <script src="chcn-genetics.js"></script>
+  <script src="chcn-cycle.js"></script>
+  <script src="chcn-family-engine.js"></script>
+  <script src="chcn-calc.js"></script>
+  <!-- Life & Tools app framework + feature modules (self-injecting) -->
+  <script src="chcn-lt-core.js"></script>
+  <script src="chcn-lt-hub.js"></script>
+  <script src="chcn-bloodtype.js"></script>
+  <script src="chcn-calc-ui.js"></script>
+  <script src="chcn-family-center.js"></script>
+  <script src="chcn-family-center-logic.js"></script>
+  <script src="chcn-period.js"></script>
+  <script src="chcn-period-logic.js"></script>
+  <script src="chcn-nav.js"></script>
+  <script src="chcn-platform.js"></script>
+  <script src="chcn-resume-photo.js"></script>
+  <script src="chcn-idprofile.js"></script>
+  <script src="chcn-docstudio.js"></script>
+  <script src="chcn-completeness.js"></script>
+  <script src="chcn-office-viewer.js"></script>
+  <script src="screen-orientation.js"></script>
+  <script src="app-view-controls.js"></script>
+  <script src="chcn-overlay-manager.js"></script>
+  <script src="chcn-qa-audit.js"></script>
+  <script src="chcn-download-fix.js"></script>
+  <script src="chcn-account-data.js"></script>
+  <script src="chcn-quiz-gate.js"></script>
+  <script src="chcn-handbook.js"></script>
+  <script src="chcn-audio-engine.js"></script>
+  <script src="chcn-course-integrity.js"></script>
+  <script src="chcn-command-center.js"></script>
+  <script src="chcn-3d-lab.js"></script>
+  <script>if('serviceWorker' in navigator){navigator.serviceWorker.register('service-worker.js').catch(()=>{});}</script>
+  <script>(function(){function fillPopular(){var ul=document.getElementById('footerPopularCourses');if(!ul)return;var items=[];try{if(window.NEW_COURSES){Object.keys(window.NEW_COURSES).slice(0,6).forEach(function(s){var c=window.NEW_COURSES[s];if(c&&c.name)items.push('<li><a onclick="openTVETCourse(\''+s+'\')">'+c.name.replace(/[<>]/g,'')+'</a></li>');});}}catch(e){}if(!items.length){items=['<li><a onclick="navigate(\'course-level1\')">Level 1 Security Officer Training</a></li>','<li><a onclick="navigate(\'course-senior\')">AISS-S Senior Supervisor</a></li>','<li><a onclick="navigate(\'course-driver-beginner\')">Driver\u2019s Course \u2014 Beginner</a></li>'];}ul.innerHTML=items.join('');}if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',fillPopular);else fillPopular();})();</script>
+</body>
+</html>

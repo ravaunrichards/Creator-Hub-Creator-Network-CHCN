@@ -1,0 +1,39 @@
+/* Creator Hub Creator Network — global services UI styling */
+:root{--chcn-font-scale:1;}
+.chcn-dock{position:fixed;right:16px;bottom:16px;z-index:9998;font-family:inherit;}
+.chcn-dock-fab{width:56px;height:56px;border-radius:50%;border:none;background:#1a1a2e;color:#fff;font-size:24px;box-shadow:0 4px 14px rgba(0,0,0,.3);cursor:pointer;}
+.chcn-dock-fab:focus{outline:3px solid #ffd54f;}
+.chcn-dock-panel{position:absolute;right:0;bottom:66px;background:#fff;border-radius:12px;box-shadow:0 8px 30px rgba(0,0,0,.25);padding:10px;display:none;min-width:220px;}
+.chcn-dock-panel.open{display:block;}
+.chcn-dock-panel button{display:block;width:100%;text-align:left;background:#f4f4f7;border:1px solid #e2e2ea;border-radius:8px;padding:10px 12px;margin:6px 0;font-size:14px;cursor:pointer;}
+.chcn-dock-panel button.active{background:#1a1a2e;color:#fff;}
+.chcn-mic-status{font-size:12px;color:#555;padding:6px 4px 2px;}
+.chcn-settings-overlay{position:fixed;inset:0;background:rgba(0,0,0,.5);z-index:9999;display:none;align-items:flex-start;justify-content:center;overflow:auto;padding:24px 12px;}
+.chcn-settings-overlay.open{display:flex;}
+.chcn-settings{background:#fff;border-radius:14px;max-width:640px;width:100%;padding:0 0 18px;}
+.chcn-settings-head{display:flex;align-items:center;justify-content:space-between;padding:16px 20px;border-bottom:1px solid #eee;position:sticky;top:0;background:#fff;border-radius:14px 14px 0 0;}
+.chcn-settings-head h2{margin:0;font-size:20px;}
+.chcn-settings-head button{border:none;background:#eee;border-radius:50%;width:34px;height:34px;font-size:16px;cursor:pointer;}
+.chcn-settings-body{padding:8px 20px;}
+.chcn-settings-body section{padding:12px 0;border-bottom:1px solid #f0f0f0;}
+.chcn-settings-body h3{margin:6px 0 10px;font-size:15px;color:#1a1a2e;}
+.chcn-set-row{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:8px 0;font-size:14px;}
+.chcn-set-row input[type=range]{flex:1;max-width:180px;}
+.chcn-set-actions{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px;}
+.chcn-set-actions button{background:#1a1a2e;color:#fff;border:none;border-radius:8px;padding:8px 14px;cursor:pointer;font-size:13px;}
+.chcn-set-note{font-size:12px;color:#777;margin:10px 0 0;}
+.chcn-file-actions{display:flex;gap:8px;flex-wrap:wrap;margin:10px 0;}
+.chcn-receipt-preview{display:flex;gap:12px;align-items:flex-start;margin:8px 0;}
+.chcn-thumb{width:72px;height:72px;object-fit:cover;border-radius:8px;border:1px solid #ddd;display:inline-flex;align-items:center;justify-content:center;background:#f4f4f7;font-weight:700;color:#c0392b;}
+.chcn-file-meta{display:flex;flex-direction:column;gap:4px;font-size:13px;}
+.chcn-err{color:#c0392b;font-size:13px;}
+.chcn-receipt-item{display:flex;justify-content:space-between;align-items:center;gap:10px;padding:6px 0;font-size:13px;border-top:1px solid #f0f0f0;}
+.chcn-donate-amounts{display:flex;gap:8px;flex-wrap:wrap;margin:10px 0;}
+.chcn-amt{background:#f4f4f7;border:1px solid #ddd;border-radius:8px;padding:8px 14px;cursor:pointer;font-weight:600;}
+.chcn-amt.active{background:#16a34a;color:#fff;border-color:#16a34a;}
+/* Accessibility: dark + high-contrast + font scaling */
+body.chcn-dark{background:#12121c;color:#e8e8ef;}
+body.chcn-dark .voice-card,body.chcn-dark .pay-note,body.chcn-dark .chcn-dock-panel,body.chcn-dark .chcn-settings{background:#1e1e2e;color:#e8e8ef;}
+body.chcn-contrast{filter:contrast(1.25);}
+body.chcn-contrast a,body.chcn-contrast .nav-link{text-decoration:underline;}
+@media(max-width:520px){.chcn-settings{border-radius:10px;} .chcn-dock-fab{width:50px;height:50px;font-size:21px;}}
