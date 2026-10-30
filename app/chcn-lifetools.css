@@ -66,7 +66,7 @@
 .fam-hint, .cyc-hint { font-size:.76rem; color:#777; }
 .fam-chk { display:flex; align-items:center; gap:7px; font-weight:500; font-size:.88rem; cursor:pointer; }
 .fam-self { background:#f4f7ff; border:1px solid #d9e2ff; border-radius:9px; padding:9px 11px; }
-.fam-chk-grid { display:flex; flex-wrap:wrap; gap:8px; max-height:150px; overflow:auto; border:1px solid #eee;
+.fam-chk-grid { display:flex; flex-wrap:wrap; gap:8px;  border:1px solid #eee;
   border-radius:9px; padding:9px; }
 .fam-form-actions { display:flex; gap:8px; }
 .fam-viewbar { display:flex; justify-content:space-between; align-items:center; gap:10px; flex-wrap:wrap; margin-bottom:10px; }
@@ -111,7 +111,7 @@
 .cyc-field input, .cyc-field select { padding:9px 10px; border:1px solid #ccc; border-radius:9px; font-size:.95rem; }
 .cyc-chk { flex-direction:row; align-items:center; gap:8px; display:flex; font-weight:500; }
 .cyc-adv summary { cursor:pointer; font-weight:600; font-size:.85rem; color:#4c6fff; margin-bottom:8px; }
-.cyc-list { margin-top:10px; display:flex; flex-direction:column; gap:6px; max-height:220px; overflow:auto; }
+.cyc-list { margin-top:10px; display:flex; flex-direction:column; gap:6px;  }
 .cyc-li { display:flex; justify-content:space-between; align-items:center; gap:10px; background:#f7f8fa;
   border:1px solid #ececf1; border-radius:9px; padding:8px 11px; font-size:.9rem; }
 .cyc-x { background:none; border:none; color:#b00020; font-size:1.2rem; line-height:1; cursor:pointer; padding:0 4px; }
