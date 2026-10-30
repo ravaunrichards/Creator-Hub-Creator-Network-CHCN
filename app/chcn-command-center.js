@@ -442,7 +442,7 @@
     }
   };
 
-  function boot(){ try{ buildUI(); }catch(e){} }
+  function boot(){ /* No automatic floating launcher; the command API remains available when explicitly opened. */ }
   // Register the new vocabulary synchronously NOW so it lands in the shared
   // registry before the assistant's deferred catch-all (keeps priority).
   try{ registerVocabulary(); }catch(e){}
