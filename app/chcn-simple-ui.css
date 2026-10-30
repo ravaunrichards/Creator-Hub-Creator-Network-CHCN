@@ -1,0 +1,31 @@
+/* CHCN simplified app shell
+   One normal document scroll surface, one primary site navigation.
+   Modal/document viewers retain their own scrolling only when needed. */
+html, body { overflow-x: hidden !important; }
+html { scroll-behavior: auto; }
+.navbar, .course-sidebar { position: static !important; top: auto !important; }
+.chcn-navbar { display: none !important; }
+
+/* Remove persistent floating shortcuts and duplicate tool launchers. */
+.chcn-dock, #chcnDock, #chcnVCBtn, #chcnVCPanel, #chcnScrollY, #chcnScrollX,
+.chcn-orient-fab, #chcnOrientFab, #chcnHub, #chcnHubMenu, #cc-fab, #cc-panel {
+  display: none !important;
+  visibility: hidden !important;
+  pointer-events: none !important;
+}
+
+/* Regular page content grows naturally instead of scrolling in a small box. */
+.chat-body, .assistant-messages, .fam-chk-grid, .cyc-list {
+  height: auto !important;
+  max-height: none !important;
+  overflow: visible !important;
+}
+@media (max-width: 768px) {
+  .navbar .container { flex-wrap: wrap; }
+  .navbar nav {
+    position: static !important;
+    max-height: none !important;
+    overflow: visible !important;
+    box-shadow: none !important;
+  }
+}

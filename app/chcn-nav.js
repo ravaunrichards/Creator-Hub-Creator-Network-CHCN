@@ -276,11 +276,10 @@
 
   // Called after every page becomes visible.
   function afterShow(page) {
-    buildBar();
-    if (!bar) { return; }
-    if (page === 'index') { bar.classList.add('chcn-navbar-hidden'); }
-    else { bar.classList.remove('chcn-navbar-hidden'); }
-    renderCrumbs(page);
+    // Keep route/history behavior, but do not inject a second Back/Home/breadcrumb bar.
+    var staleBar = doc.getElementById('chcnNavBar');
+    if (staleBar && staleBar.parentNode) { staleBar.parentNode.removeChild(staleBar); }
+    bar = null; crumbEl = null; backBtn = null; fwdBtn = null;
     // document title reflects location for accessibility / browser history
     try {
       var base = 'Creator Hub Creator Network';

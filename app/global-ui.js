@@ -161,7 +161,7 @@
   global.closeSettings = function () { var m = el('chcnSettingsModal'); if (m) { m.classList.remove('open'); m.setAttribute('aria-hidden', 'true'); } };
 
   document.addEventListener('DOMContentLoaded', function () {
-    buildDock();
+    // Voice/accessibility features remain on their dedicated page; no floating dock.
     applyAppearance();
     // Restore read-aloud visual state
     refreshDock();

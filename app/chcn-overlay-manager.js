@@ -160,8 +160,7 @@
     ['click', 'touchstart', 'keydown', 'pointerdown'].forEach(function (ev) {
       doc.addEventListener(ev, armIdle, { passive: true, capture: true });
     });
-    buildComfortPanel();
-    buildHub();
+    // Keep overlay layering and modal safety; do not create an always-visible floating tools hub.
   }
   if (doc.readyState === 'loading') doc.addEventListener('DOMContentLoaded', boot); else boot();
 
