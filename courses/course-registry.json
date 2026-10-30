@@ -1,0 +1,1551 @@
+{
+  "schema": "chcn.course-registry/v1",
+  "generatedAt": "2026-10-30",
+  "organization": "Creator Hub Creator Network (CHCN)",
+  "division": "Technical & Vocational Education and Training",
+  "product": "CHCN Education & Training Academy",
+  "note": "Auto-derived from the existing courses-data.js. Awarding-body and accreditation fields are UNVERIFIED and must be confirmed by a qualified SME before being presented as official.",
+  "courseCount": 35,
+  "courses": [
+    {
+      "courseId": "nc-tractor-operation-and-maintenance-level-2",
+      "title": "Tractor Operation and Maintenance — Level 2",
+      "category": "Agriculture",
+      "subject": "Agriculture",
+      "level": 2,
+      "levelLabel": "Intermediate",
+      "icon": "🚜",
+      "description": "This programme has been developed to provide trainees with the prerequisite skills to function effectively in the tractor operations and maintenance industry. It covers the safe operation of farm machinery, land preparation, and the preventive maintenance and repair of tractor systems.",
+      "learningOutcomes": [
+        "Operate farm machinery and equipment",
+        "Carry out measurement and calculations",
+        "Prepare land for planting",
+        "Practise safety and hygiene in the workplace",
+        "Perform pre-start operation of tractor",
+        "Attach and detach farm equipment to tractor"
+      ],
+      "prerequisites": "No formal prerequisite; a basic command of English and numeracy is recommended.",
+      "awardingBody": null,
+      "qualificationFramework": null,
+      "accreditationStatus": "UNVERIFIED",
+      "certificateLabel": "CHCN L2",
+      "certificateFull": "Certificate of Competence — Tractor Operation and Maintenance — Level 2",
+      "unitCount": 33,
+      "totalHours": 2805,
+      "moduleCount": 7,
+      "quizBankQuestionCount": 31,
+      "sources": [
+        [
+          "HEART/NSTA Trust — National Vocational Qualifications of Jamaica (NVQ-J)",
+          "https://www.heart-nsta.org/"
+        ],
+        [
+          "O*NET OnLine — Occupational information & work activities",
+          "https://www.onetonline.org/"
+        ]
+      ],
+      "version": "1.0",
+      "reviewDate": null,
+      "owner": "CHCN Founder",
+      "assignedInstructors": [],
+      "publicationStatus": "published",
+      "contentVerificationStatus": "PENDING_SME_REVIEW"
+    },
+    {
+      "courseId": "nc-allied-health-health-care-assistance-patient-care-level-2",
+      "title": "Allied Health — Health Care Assistance (Patient Care) — Level 2",
+      "category": "Allied Health",
+      "subject": "Allied Health",
+      "level": 2,
+      "levelLabel": "Intermediate",
+      "icon": "🩺",
+      "description": "This course provides students with the knowledge and skills to deliver nutritional care for patients, measure vital signs, collect capillary blood specimens, care for children, manage personal risks related to HIV and AIDS in the workplace, prepare medical equipment and supplies, use medical terminology, apply basic first aid, support persons with disabilities, and assist care recipients with medication.",
+      "learningOutcomes": [
+        "Participate in workplace safety procedures",
+        "Maintain a safe, clean and efficient work environment",
+        "Prepare bed for occupancy",
+        "Apply basic first aid",
+        "Contribute to a harmonious and efficient work environment",
+        "Manage self against risks related to hiv and aids in the work place"
+      ],
+      "prerequisites": "No formal prerequisite; a basic command of English and numeracy is recommended.",
+      "awardingBody": null,
+      "qualificationFramework": null,
+      "accreditationStatus": "UNVERIFIED",
+      "certificateLabel": "CHCN L2",
+      "certificateFull": "Certificate of Competence — Allied Health — Health Care Assistance (Patient Care) — Level 2",
+      "unitCount": 32,
+      "totalHours": 970,
+      "moduleCount": 7,
+      "quizBankQuestionCount": 31,
+      "sources": [
+        [
+          "HEART/NSTA Trust — National Vocational Qualifications of Jamaica (NVQ-J)",
+          "https://www.heart-nsta.org/"
+        ],
+        [
+          "O*NET OnLine — Occupational information & work activities",
+          "https://www.onetonline.org/"
+        ]
+      ],
+      "version": "1.0",
+      "reviewDate": null,
+      "owner": "CHCN Founder",
+      "assignedInstructors": [],
+      "publicationStatus": "published",
+      "contentVerificationStatus": "PENDING_SME_REVIEW"
+    },
+    {
+      "courseId": "nc-allied-health-health-care-assistance-patient-care-level-3",
+      "title": "Allied Health — Health Care Assistance (Patient Care) — Level 3",
+      "category": "Allied Health",
+      "subject": "Allied Health",
+      "level": 3,
+      "levelLabel": "Advanced",
+      "icon": "🩺",
+      "description": "This advanced patient-care programme prepares Health Care Assistants to deliver responsive care across the lifespan — supporting the elderly, managing behavioural change, applying pharmacology concepts, caring for babies and mothers, responding in emergencies, and co-ordinating work in the aged- and community-care sector.",
+      "learningOutcomes": [
+        "Participate in workplace safety procedures",
+        "Maintain a safe, clean and efficient work environment",
+        "Prepare bed for occupancy",
+        "Apply basic first aid",
+        "Contribute to a harmonious and efficient work environment",
+        "Assist client/patient with mobility"
+      ],
+      "prerequisites": "Prior experience in the field or completion of the Level 2 competencies is recommended; no formal platform prerequisite is enforced.",
+      "awardingBody": null,
+      "qualificationFramework": null,
+      "accreditationStatus": "UNVERIFIED",
+      "certificateLabel": "CHCN L3",
+      "certificateFull": "Certificate of Competence — Allied Health — Health Care Assistance (Patient Care) — Level 3",
+      "unitCount": 59,
+      "totalHours": 1715,
+      "moduleCount": 11,
+      "quizBankQuestionCount": 31,
+      "sources": [
+        [
+          "HEART/NSTA Trust — National Vocational Qualifications of Jamaica (NVQ-J)",
+          "https://www.heart-nsta.org/"
+        ],
+        [
+          "O*NET OnLine — Occupational information & work activities",
+          "https://www.onetonline.org/"
+        ]
+      ],
+      "version": "1.0",
+      "reviewDate": null,
+      "owner": "CHCN Founder",
+      "assignedInstructors": [],
+      "publicationStatus": "published",
+      "contentVerificationStatus": "PENDING_SME_REVIEW"
+    },
+    {
+      "courseId": "nc-electric-hybrid-vehicle-hazard-management-level-1",
+      "title": "Electric / Hybrid Vehicle Hazard Management — Level 1",
+      "category": "Automotive",
+      "subject": "Automotive",
+      "level": 1,
+      "levelLabel": "Beginner",
+      "icon": "🔋",
+      "description": "This qualification is designed to provide the candidate with a good understanding of the hazards involved when operating and working around Hybrid Electric Vehicles. It provides learners with an introduction to the knowledge of safe working practices, the dangers surrounding, and the precautions required to avoid potential injury when near Electric/Hybrid vehicles",
+      "learningOutcomes": [
+        "Comply with safe working practices in an automotive workplace",
+        "Prepare basic reports",
+        "Comply with environmental and sustainability best practices in an automotive workplace",
+        "Apply basic electrical safety to electric/hybrid vehicles",
+        "Apply basic electrical principles and practices to electric/hybrid vehicles",
+        "Conduct risk assessment for electric/hybrid vehicle accidents/incidents"
+      ],
+      "prerequisites": "No formal prerequisite. This is a foundation-level competency programme.",
+      "awardingBody": null,
+      "qualificationFramework": null,
+      "accreditationStatus": "UNVERIFIED",
+      "certificateLabel": "CHCN L1",
+      "certificateFull": "Certificate of Competence — Electric / Hybrid Vehicle Hazard Management — Level 1",
+      "unitCount": 16,
+      "totalHours": 840,
+      "moduleCount": 4,
+      "quizBankQuestionCount": 31,
+      "sources": [
+        [
+          "HEART/NSTA Trust — National Vocational Qualifications of Jamaica (NVQ-J)",
+          "https://www.heart-nsta.org/"
+        ],
+        [
+          "O*NET OnLine — Occupational information & work activities",
+          "https://www.onetonline.org/"
+        ]
+      ],
+      "version": "1.0",
+      "reviewDate": null,
+      "owner": "CHCN Founder",
+      "assignedInstructors": [],
+      "publicationStatus": "published",
+      "contentVerificationStatus": "PENDING_SME_REVIEW"
+    },
+    {
+      "courseId": "nc-motor-vehicle-repairs-level-2",
+      "title": "Motor Vehicle Repairs — Level 2",
+      "category": "Automotive",
+      "subject": "Automotive",
+      "level": 2,
+      "levelLabel": "Intermediate",
+      "icon": "🔋",
+      "description": "This Level 2 programme develops the practical skills and knowledge needed to service and repair motor vehicles in an automotive workplace. Trainees learn safe working practices and the use of tools and equipment; inspect and service braking, steering, suspension, cooling, transmission and electrical systems; disassemble and reassemble engines, cylinder heads and sub-assemblies; and apply manufacturer repair procedures and basic troubleshooting. The programme also builds supporting workplace competencies in communication, customer service, computer applications and record keeping.",
+      "learningOutcomes": [
+        "Inspect and service braking systems",
+        "Use and maintain tools and equipment in an automotive workplace",
+        "Comply with safe working practices in an automotive workplace",
+        "Apply original equipment manufacturer repair procedures during vehicle repairs",
+        "Prepare for general servicing/repairing of motor vehicle",
+        "Service engines and associated engine components"
+      ],
+      "prerequisites": "No formal prerequisite; a basic command of English and numeracy is recommended.",
+      "awardingBody": null,
+      "qualificationFramework": null,
+      "accreditationStatus": "UNVERIFIED",
+      "certificateLabel": "CHCN L2",
+      "certificateFull": "Certificate of Competence — Motor Vehicle Repairs — Level 2",
+      "unitCount": 36,
+      "totalHours": 2625,
+      "moduleCount": 7,
+      "quizBankQuestionCount": 31,
+      "sources": [
+        [
+          "HEART/NSTA Trust — National Vocational Qualifications of Jamaica (NVQ-J)",
+          "https://www.heart-nsta.org/"
+        ],
+        [
+          "O*NET OnLine — Occupational information & work activities",
+          "https://www.onetonline.org/"
+        ]
+      ],
+      "version": "1.0",
+      "reviewDate": null,
+      "owner": "CHCN Founder",
+      "assignedInstructors": [],
+      "publicationStatus": "published",
+      "contentVerificationStatus": "PENDING_SME_REVIEW"
+    },
+    {
+      "courseId": "nc-cosmetology-level-2",
+      "title": "Cosmetology — Level 2",
+      "category": "Beauty & Wellness",
+      "subject": "Beauty & Wellness",
+      "level": 2,
+      "levelLabel": "Intermediate",
+      "icon": "💅",
+      "description": "This qualification offers trainees the opportunity to demonstrate the knowledge, skills and attitudes needed to effectively function as a Cosmetologist in the Beauty service industry.",
+      "learningOutcomes": [
+        "Provide manicure and pedicure services",
+        "Maintain a safe, clean and efficient work environment",
+        "Plan and organize work",
+        "Deliver quality service to customers",
+        "Prepare clients for salon service",
+        "Perform temporary hair colour services"
+      ],
+      "prerequisites": "No formal prerequisite; a basic command of English and numeracy is recommended.",
+      "awardingBody": null,
+      "qualificationFramework": null,
+      "accreditationStatus": "UNVERIFIED",
+      "certificateLabel": "CHCN L2",
+      "certificateFull": "Certificate of Competence — Cosmetology — Level 2",
+      "unitCount": 41,
+      "totalHours": 1095,
+      "moduleCount": 8,
+      "quizBankQuestionCount": 31,
+      "sources": [
+        [
+          "HEART/NSTA Trust — National Vocational Qualifications of Jamaica (NVQ-J)",
+          "https://www.heart-nsta.org/"
+        ],
+        [
+          "O*NET OnLine — Occupational information & work activities",
+          "https://www.onetonline.org/"
+        ]
+      ],
+      "version": "1.0",
+      "reviewDate": null,
+      "owner": "CHCN Founder",
+      "assignedInstructors": [],
+      "publicationStatus": "published",
+      "contentVerificationStatus": "PENDING_SME_REVIEW"
+    },
+    {
+      "courseId": "nc-general-beauty-therapy-level-3",
+      "title": "General Beauty Therapy — Level 3",
+      "category": "Beauty & Wellness",
+      "subject": "Beauty & Wellness",
+      "level": 3,
+      "levelLabel": "Advanced",
+      "icon": "💅",
+      "description": "General Beauty Therapy is one of the most popular areas of study in the beauty services sector. Trainees usually benefit greatly from the exposure gained in this area and are often empowered to establish their own businesses.",
+      "learningOutcomes": [
+        "Apply basic first aid",
+        "Maintain a safe, clean and efficient work environment",
+        "Deliver quality service to customers",
+        "Prepare clients for salon services",
+        "Carry out data entry and retrieval procedures",
+        "Provide manicure and pedicure service"
+      ],
+      "prerequisites": "Prior experience in the field or completion of the Level 2 competencies is recommended; no formal platform prerequisite is enforced.",
+      "awardingBody": null,
+      "qualificationFramework": null,
+      "accreditationStatus": "UNVERIFIED",
+      "certificateLabel": "CHCN L3",
+      "certificateFull": "Certificate of Competence — General Beauty Therapy — Level 3",
+      "unitCount": 38,
+      "totalHours": 1140,
+      "moduleCount": 8,
+      "quizBankQuestionCount": 31,
+      "sources": [
+        [
+          "HEART/NSTA Trust — National Vocational Qualifications of Jamaica (NVQ-J)",
+          "https://www.heart-nsta.org/"
+        ],
+        [
+          "O*NET OnLine — Occupational information & work activities",
+          "https://www.onetonline.org/"
+        ]
+      ],
+      "version": "1.0",
+      "reviewDate": null,
+      "owner": "CHCN Founder",
+      "assignedInstructors": [],
+      "publicationStatus": "published",
+      "contentVerificationStatus": "PENDING_SME_REVIEW"
+    },
+    {
+      "courseId": "nc-hair-styling-level-2",
+      "title": "Hair Styling — Level 2",
+      "category": "Beauty & Wellness",
+      "subject": "Beauty & Wellness",
+      "level": 2,
+      "levelLabel": "Intermediate",
+      "icon": "💅",
+      "description": "This programme is designed to facilitate applicants who wish to be trained and certified in hair styling.",
+      "learningOutcomes": [
+        "Maintain a safe, clean and efficient work environment",
+        "Deliver quality service to customers",
+        "Prepare clients for salon services",
+        "Perform temporary hair colour services",
+        "Perform roller placement and basic hair styling",
+        "Perform shampooing and conditioning service"
+      ],
+      "prerequisites": "No formal prerequisite; a basic command of English and numeracy is recommended.",
+      "awardingBody": null,
+      "qualificationFramework": null,
+      "accreditationStatus": "UNVERIFIED",
+      "certificateLabel": "CHCN L2",
+      "certificateFull": "Certificate of Competence — Hair Styling — Level 2",
+      "unitCount": 24,
+      "totalHours": 770,
+      "moduleCount": 5,
+      "quizBankQuestionCount": 31,
+      "sources": [
+        [
+          "HEART/NSTA Trust — National Vocational Qualifications of Jamaica (NVQ-J)",
+          "https://www.heart-nsta.org/"
+        ],
+        [
+          "O*NET OnLine — Occupational information & work activities",
+          "https://www.onetonline.org/"
+        ]
+      ],
+      "version": "1.0",
+      "reviewDate": null,
+      "owner": "CHCN Founder",
+      "assignedInstructors": [],
+      "publicationStatus": "published",
+      "contentVerificationStatus": "PENDING_SME_REVIEW"
+    },
+    {
+      "courseId": "nc-massage-therapy-level-4",
+      "title": "Massage Therapy — Level 4",
+      "category": "Beauty & Wellness",
+      "subject": "Beauty & Wellness",
+      "level": 4,
+      "levelLabel": "Advanced",
+      "icon": "💆",
+      "description": "This Massage Therapy course is a profession in which the practitioner applies manual techniques, and may apply adjunctive therapies, with the intention of positively affecting the health and well-being of the client. Therapeutic massage involves the manipulation of the soft tissue structures of the body to prevent and alleviate pain, discomfort, muscle spasm, and stress; and to promote health and wellness. Massage therapy improves functioning of the circulatory, lymphatic, muscular, skeletal, and nervous systems and may improve the rate at which the body recovers from injury and illness.",
+      "learningOutcomes": [
+        "Maintain a safe, clean and efficient work environment",
+        "Plan and organize work",
+        "Deliver quality service to customers",
+        "Prepare clients for therapeutic services",
+        "Manage self against risks related to hiv and aids in the work place",
+        "Follow occupational health and safety (oh&s) policy and procedures"
+      ],
+      "prerequisites": "Prior industry experience and completion of the relevant lower-level competencies are recommended; no formal platform prerequisite is enforced.",
+      "awardingBody": null,
+      "qualificationFramework": null,
+      "accreditationStatus": "UNVERIFIED",
+      "certificateLabel": "CHCN L4",
+      "certificateFull": "Certificate of Competence — Massage Therapy — Level 4",
+      "unitCount": 45,
+      "totalHours": 1431,
+      "moduleCount": 9,
+      "quizBankQuestionCount": 31,
+      "sources": [
+        [
+          "HEART/NSTA Trust — National Vocational Qualifications of Jamaica (NVQ-J)",
+          "https://www.heart-nsta.org/"
+        ],
+        [
+          "O*NET OnLine — Occupational information & work activities",
+          "https://www.onetonline.org/"
+        ]
+      ],
+      "version": "1.0",
+      "reviewDate": null,
+      "owner": "CHCN Founder",
+      "assignedInstructors": [],
+      "publicationStatus": "published",
+      "contentVerificationStatus": "PENDING_SME_REVIEW"
+    },
+    {
+      "courseId": "nc-business-management-supervision-level-3",
+      "title": "Business Management — (Supervision) — Level 3",
+      "category": "Business & Management",
+      "subject": "Business & Management",
+      "level": 3,
+      "levelLabel": "Advanced",
+      "icon": "💼",
+      "description": "This programme is designed to comprehensively cover the major aspects of business, management and supervision necessary to advance and succeed in business and industry. The course work covers basic business management skills, with emphasis on human relations, leadership, and written and oral communication specifically related to managerial and supervisory positions. It is designed to meet the needs of those who plan to (1) prepare for supervisory positions, (2) advance from existing supervisory or management roles to more responsible positions, and (3) own and operate their own business.",
+      "learningOutcomes": [
+        "Prepare and process financial/business documents",
+        "Design and develop documents, reports and worksheets",
+        "Supervise the team to ensure goals are achieved",
+        "Lead work team",
+        "Plan and manage meetings",
+        "Coordinate the recruitment, selection and induction of staff"
+      ],
+      "prerequisites": "Prior experience in the field or completion of the Level 2 competencies is recommended; no formal platform prerequisite is enforced.",
+      "awardingBody": null,
+      "qualificationFramework": null,
+      "accreditationStatus": "UNVERIFIED",
+      "certificateLabel": "CHCN L3",
+      "certificateFull": "Certificate of Competence — Business Management — (Supervision) — Level 3",
+      "unitCount": 64,
+      "totalHours": 1562,
+      "moduleCount": 12,
+      "quizBankQuestionCount": 30,
+      "sources": [
+        [
+          "HEART/NSTA Trust — National Vocational Qualifications of Jamaica (NVQ-J)",
+          "https://www.heart-nsta.org/"
+        ],
+        [
+          "O*NET OnLine — Occupational information & work activities",
+          "https://www.onetonline.org/"
+        ]
+      ],
+      "version": "1.0",
+      "reviewDate": null,
+      "owner": "CHCN Founder",
+      "assignedInstructors": [],
+      "publicationStatus": "published",
+      "contentVerificationStatus": "PENDING_SME_REVIEW"
+    },
+    {
+      "courseId": "nc-human-resource-management-level-4",
+      "title": "Human Resource Management — Level 4",
+      "category": "Business & Management",
+      "subject": "Business & Management",
+      "level": 4,
+      "levelLabel": "Advanced",
+      "icon": "💼",
+      "description": "This programme has been developed to provide trainees with the prerequisite skills to function effectively in human resource management, including recruitment and selection, employee relations, training and development, compensation, and compliance with workplace policies and procedures.",
+      "learningOutcomes": [
+        "Produce complex business documents",
+        "Manage workplace industrial relations",
+        "Represent and promote the interest of the organization",
+        "Maintain business ethics",
+        "Develop and manage small teams and individuals",
+        "Implement customer service standards"
+      ],
+      "prerequisites": "Prior industry experience and completion of the relevant lower-level competencies are recommended; no formal platform prerequisite is enforced.",
+      "awardingBody": null,
+      "qualificationFramework": null,
+      "accreditationStatus": "UNVERIFIED",
+      "certificateLabel": "CHCN L4",
+      "certificateFull": "Certificate of Competence — Human Resource Management — Level 4",
+      "unitCount": 33,
+      "totalHours": 1845,
+      "moduleCount": 7,
+      "quizBankQuestionCount": 31,
+      "sources": [
+        [
+          "HEART/NSTA Trust — National Vocational Qualifications of Jamaica (NVQ-J)",
+          "https://www.heart-nsta.org/"
+        ],
+        [
+          "O*NET OnLine — Occupational information & work activities",
+          "https://www.onetonline.org/"
+        ]
+      ],
+      "version": "1.0",
+      "reviewDate": null,
+      "owner": "CHCN Founder",
+      "assignedInstructors": [],
+      "publicationStatus": "published",
+      "contentVerificationStatus": "PENDING_SME_REVIEW"
+    },
+    {
+      "courseId": "nc-supervisory-management-level-3",
+      "title": "Supervisory Management — Level 3",
+      "category": "Business & Management",
+      "subject": "Business & Management",
+      "level": 3,
+      "levelLabel": "Advanced",
+      "icon": "💼",
+      "description": "Supervisory Management Skills provides you with the necessary knowledge and insights to become successful in any supervisory position by focusing on and improving important managerial skills. As manager or supervisor, you often have to manage various operational aspects as well as the people side of business simultaneously, which can lead to situations of great stress or anxiety. During the course, you will acquire the requisite skills to make sound (yet creative) decisions, develop techniques to communicate better, manage and organise your time optimally, manage staff and conflict situations, improve productivity and implement total quality control measures",
+      "learningOutcomes": [
+        "Ensure the confidentiality, privacy and security of customer information",
+        "Process customer complaints/disputes",
+        "Produce business documents",
+        "Prepare and process financial/business documents",
+        "Promote product and services",
+        "Process financial information"
+      ],
+      "prerequisites": "Prior experience in the field or completion of the Level 2 competencies is recommended; no formal platform prerequisite is enforced.",
+      "awardingBody": null,
+      "qualificationFramework": null,
+      "accreditationStatus": "UNVERIFIED",
+      "certificateLabel": "CHCN L3",
+      "certificateFull": "Certificate of Competence — Supervisory Management — Level 3",
+      "unitCount": 50,
+      "totalHours": 3855,
+      "moduleCount": 10,
+      "quizBankQuestionCount": 31,
+      "sources": [
+        [
+          "HEART/NSTA Trust — National Vocational Qualifications of Jamaica (NVQ-J)",
+          "https://www.heart-nsta.org/"
+        ],
+        [
+          "O*NET OnLine — Occupational information & work activities",
+          "https://www.onetonline.org/"
+        ]
+      ],
+      "version": "1.0",
+      "reviewDate": null,
+      "owner": "CHCN Founder",
+      "assignedInstructors": [],
+      "publicationStatus": "published",
+      "contentVerificationStatus": "PENDING_SME_REVIEW"
+    },
+    {
+      "courseId": "nc-customer-service-level-2",
+      "title": "Customer Service — Level 2",
+      "category": "Business & Management",
+      "subject": "Business & Management",
+      "level": 2,
+      "levelLabel": "Intermediate",
+      "icon": "🎧",
+      "description": "The programme is designed to facilitate trainees who have the desire to be trained and certified in Customer Service Level 2.",
+      "learningOutcomes": [
+        "Use business equipment",
+        "Type and copy routine documents",
+        "Prepare for work",
+        "Work effectively in a business environment",
+        "Handle telephone calls",
+        "Apply point of sale handling procedures"
+      ],
+      "prerequisites": "No formal prerequisite; a basic command of English and numeracy is recommended.",
+      "awardingBody": null,
+      "qualificationFramework": null,
+      "accreditationStatus": "UNVERIFIED",
+      "certificateLabel": "CHCN L2",
+      "certificateFull": "Certificate of Competence — Customer Service — Level 2",
+      "unitCount": 44,
+      "totalHours": 952,
+      "moduleCount": 9,
+      "quizBankQuestionCount": 31,
+      "sources": [
+        [
+          "HEART/NSTA Trust — National Vocational Qualifications of Jamaica (NVQ-J)",
+          "https://www.heart-nsta.org/"
+        ],
+        [
+          "O*NET OnLine — Occupational information & work activities",
+          "https://www.onetonline.org/"
+        ]
+      ],
+      "version": "1.0",
+      "reviewDate": null,
+      "owner": "CHCN Founder",
+      "assignedInstructors": [],
+      "publicationStatus": "published",
+      "contentVerificationStatus": "PENDING_SME_REVIEW"
+    },
+    {
+      "courseId": "nc-early-childhood-special-needs-level-3",
+      "title": "Early Childhood Special Needs — Level 3",
+      "category": "Education & Childcare",
+      "subject": "Education & Childcare",
+      "level": 3,
+      "levelLabel": "Advanced",
+      "icon": "🧸",
+      "description": "This qualification offers special needs trainees with the ability to demonstrate specified skills to teach and develop students in special needs.",
+      "learningOutcomes": [
+        "Follow early childhood sector policies, procedures and regulations",
+        "Care for children’s physical needs",
+        "Support children’s nutritional needs",
+        "Support children’s involvement in activities",
+        "Support children’s language and cognitive development",
+        "Support children’s social and emotional development"
+      ],
+      "prerequisites": "Prior experience in the field or completion of the Level 2 competencies is recommended; no formal platform prerequisite is enforced.",
+      "awardingBody": null,
+      "qualificationFramework": null,
+      "accreditationStatus": "UNVERIFIED",
+      "certificateLabel": "CHCN L3",
+      "certificateFull": "Certificate of Competence — Early Childhood Special Needs — Level 3",
+      "unitCount": 55,
+      "totalHours": 1710,
+      "moduleCount": 11,
+      "quizBankQuestionCount": 31,
+      "sources": [
+        [
+          "HEART/NSTA Trust — National Vocational Qualifications of Jamaica (NVQ-J)",
+          "https://www.heart-nsta.org/"
+        ],
+        [
+          "O*NET OnLine — Occupational information & work activities",
+          "https://www.onetonline.org/"
+        ]
+      ],
+      "version": "1.0",
+      "reviewDate": null,
+      "owner": "CHCN Founder",
+      "assignedInstructors": [],
+      "publicationStatus": "published",
+      "contentVerificationStatus": "PENDING_SME_REVIEW"
+    },
+    {
+      "courseId": "nc-electrical-installation-level-3",
+      "title": "Electrical Installation — Level 3",
+      "category": "Electrical & HVAC",
+      "subject": "Electrical & HVAC",
+      "level": 3,
+      "levelLabel": "Advanced",
+      "icon": "🔋",
+      "description": "This Level 3 Diploma in Electrical Installation aims to provide learners with more complex competencies to expand their skillset and to supervise and operate a business venture effectively. Learners will cover cluster/modules that will expose them to the coordination and installation of detailed residential, commercial and industrial wiring; industrial machines, components and systems to include motor controls. Emphasis is placed on wiring in accordance with the provisions contained in the Jamaica Standards 316 and other relevant codes. ",
+      "learningOutcomes": [
+        "Interpret and draw standard electrical drawings",
+        "Use and maintain hand and power tools for electrical work",
+        "Apply principles and practices in electrical installation",
+        "Use electrical/electronic measuring devices",
+        "Use marking out tools",
+        "Draw and interpret sketches and simple drawings"
+      ],
+      "prerequisites": "Prior experience in the field or completion of the Level 2 competencies is recommended; no formal platform prerequisite is enforced.",
+      "awardingBody": null,
+      "qualificationFramework": null,
+      "accreditationStatus": "UNVERIFIED",
+      "certificateLabel": "CHCN L3",
+      "certificateFull": "Certificate of Competence — Electrical Installation — Level 3",
+      "unitCount": 63,
+      "totalHours": 4340,
+      "moduleCount": 12,
+      "quizBankQuestionCount": 31,
+      "sources": [
+        [
+          "HEART/NSTA Trust — National Vocational Qualifications of Jamaica (NVQ-J)",
+          "https://www.heart-nsta.org/"
+        ],
+        [
+          "O*NET OnLine — Occupational information & work activities",
+          "https://www.onetonline.org/"
+        ]
+      ],
+      "version": "1.0",
+      "reviewDate": null,
+      "owner": "CHCN Founder",
+      "assignedInstructors": [],
+      "publicationStatus": "published",
+      "contentVerificationStatus": "PENDING_SME_REVIEW"
+    },
+    {
+      "courseId": "nc-electrical-installation-level-4",
+      "title": "Electrical Installation — Level 4",
+      "category": "Electrical & HVAC",
+      "subject": "Electrical & HVAC",
+      "level": 4,
+      "levelLabel": "Advanced",
+      "icon": "🔋",
+      "description": "This programme will put into perspective all the requirements enabling the professional electrician to discharge his/her duties in accordance with the regulations of the Lighting Act and to successfully demonstrate the competencies required to acquire an electrical licence when exposed to this procedure set out by the Board of Electrical Examiners",
+      "learningOutcomes": [
+        "Provide leadership",
+        "Develop critical thinking in others",
+        "Implement customer service standards",
+        "Design and deliver a presentation",
+        "Develop a business proposal",
+        "Build client relationship and business network"
+      ],
+      "prerequisites": "Prior industry experience and completion of the relevant lower-level competencies are recommended; no formal platform prerequisite is enforced.",
+      "awardingBody": null,
+      "qualificationFramework": null,
+      "accreditationStatus": "UNVERIFIED",
+      "certificateLabel": "CHCN L4",
+      "certificateFull": "Certificate of Competence — Electrical Installation — Level 4",
+      "unitCount": 26,
+      "totalHours": 2115,
+      "moduleCount": 6,
+      "quizBankQuestionCount": 31,
+      "sources": [
+        [
+          "HEART/NSTA Trust — National Vocational Qualifications of Jamaica (NVQ-J)",
+          "https://www.heart-nsta.org/"
+        ],
+        [
+          "O*NET OnLine — Occupational information & work activities",
+          "https://www.onetonline.org/"
+        ]
+      ],
+      "version": "1.0",
+      "reviewDate": null,
+      "owner": "CHCN Founder",
+      "assignedInstructors": [],
+      "publicationStatus": "published",
+      "contentVerificationStatus": "PENDING_SME_REVIEW"
+    },
+    {
+      "courseId": "nc-mechatronics-level-3",
+      "title": "Mechatronics — Level 3",
+      "category": "Electrical & HVAC",
+      "subject": "Electrical & HVAC",
+      "level": 3,
+      "levelLabel": "Advanced",
+      "icon": "🤖",
+      "description": "This course is an emerging field that blends mechanical engineering, electrical engineering and computer science to design, build and operate smart machines. This programme gives the trainees a broad range of knowledge and skills in manufacturing processes, industrial control principles, including instruments, circuits, components and control techniques. Statistics that include mechatronic control systems and programmable logic controllers, practical physics, including dynamics and fluid power. The physical and chemical properties of materials used in industry, machine design elements and kinematics, process control in plant automation and computer-integrated manufacturing.",
+      "learningOutcomes": [
+        "Apply principles and practices in electrical installation",
+        "Use electrical/electronic measuring devices",
+        "Use and maintain graduated measuring devices",
+        "Exercise professionalism and ethical behaviour",
+        "Prepare quotations",
+        "Comply with occupational safety and health requirements"
+      ],
+      "prerequisites": "Prior experience in the field or completion of the Level 2 competencies is recommended; no formal platform prerequisite is enforced.",
+      "awardingBody": null,
+      "qualificationFramework": null,
+      "accreditationStatus": "UNVERIFIED",
+      "certificateLabel": "CHCN L3",
+      "certificateFull": "Certificate of Competence — Mechatronics — Level 3",
+      "unitCount": 54,
+      "totalHours": 3705,
+      "moduleCount": 10,
+      "quizBankQuestionCount": 31,
+      "sources": [
+        [
+          "HEART/NSTA Trust — National Vocational Qualifications of Jamaica (NVQ-J)",
+          "https://www.heart-nsta.org/"
+        ],
+        [
+          "O*NET OnLine — Occupational information & work activities",
+          "https://www.onetonline.org/"
+        ]
+      ],
+      "version": "1.0",
+      "reviewDate": null,
+      "owner": "CHCN Founder",
+      "assignedInstructors": [],
+      "publicationStatus": "published",
+      "contentVerificationStatus": "PENDING_SME_REVIEW"
+    },
+    {
+      "courseId": "nc-carpentry-level-3",
+      "title": "Carpentry — Level 3",
+      "category": "Construction & Trades",
+      "subject": "Construction & Trades",
+      "level": 3,
+      "levelLabel": "Advanced",
+      "icon": "🪵",
+      "description": "This course is designed to develop advanced carpentry knowledge and practical skills required for employment and supervisory responsibilities in the construction industry. Learners build on Level 2 competencies by applying industry standards, interpreting complex construction drawings, and executing advanced carpentry tasks with accuracy and efficiency.",
+      "learningOutcomes": [
+        "Prepare for carpentry construction",
+        "Draw and interpret simple drawings",
+        "Use hand and power tools",
+        "Use simple levelling devices",
+        "Work effectively in general construction industry",
+        "Handle construction materials and safely dispose of waste"
+      ],
+      "prerequisites": "Prior experience in the field or completion of the Level 2 competencies is recommended; no formal platform prerequisite is enforced.",
+      "awardingBody": null,
+      "qualificationFramework": null,
+      "accreditationStatus": "UNVERIFIED",
+      "certificateLabel": "CHCN L3",
+      "certificateFull": "Certificate of Competence — Carpentry — Level 3",
+      "unitCount": 64,
+      "totalHours": 4985,
+      "moduleCount": 12,
+      "quizBankQuestionCount": 31,
+      "sources": [
+        [
+          "HEART/NSTA Trust — National Vocational Qualifications of Jamaica (NVQ-J)",
+          "https://www.heart-nsta.org/"
+        ],
+        [
+          "O*NET OnLine — Occupational information & work activities",
+          "https://www.onetonline.org/"
+        ]
+      ],
+      "version": "1.0",
+      "reviewDate": null,
+      "owner": "CHCN Founder",
+      "assignedInstructors": [],
+      "publicationStatus": "published",
+      "contentVerificationStatus": "PENDING_SME_REVIEW"
+    },
+    {
+      "courseId": "nc-greenhouse-technology-level-2",
+      "title": "Greenhouse Technology — Level 2",
+      "category": "Agriculture",
+      "subject": "Agriculture",
+      "level": 2,
+      "levelLabel": "Intermediate",
+      "icon": "🚜",
+      "description": "The Greenhouse Technology programme equips candidates with the necessary competencies to grow plants and integrate pest management techniques to control pests and diseases in greenhouses.",
+      "learningOutcomes": [
+        "Operate small machinery and equipment",
+        "Use and maintain equipment and machines",
+        "Observe environmental workplace practices",
+        "Communicate in the workplace",
+        "Prepare and use agricultural chemicals",
+        "Calibrate pesticide application equipment"
+      ],
+      "prerequisites": "No formal prerequisite; a basic command of English and numeracy is recommended.",
+      "awardingBody": null,
+      "qualificationFramework": null,
+      "accreditationStatus": "UNVERIFIED",
+      "certificateLabel": "CHCN L2",
+      "certificateFull": "Certificate of Competence — Greenhouse Technology — Level 2",
+      "unitCount": 35,
+      "totalHours": 1045,
+      "moduleCount": 7,
+      "quizBankQuestionCount": 31,
+      "sources": [
+        [
+          "HEART/NSTA Trust — National Vocational Qualifications of Jamaica (NVQ-J)",
+          "https://www.heart-nsta.org/"
+        ],
+        [
+          "O*NET OnLine — Occupational information & work activities",
+          "https://www.onetonline.org/"
+        ]
+      ],
+      "version": "1.0",
+      "reviewDate": null,
+      "owner": "CHCN Founder",
+      "assignedInstructors": [],
+      "publicationStatus": "published",
+      "contentVerificationStatus": "PENDING_SME_REVIEW"
+    },
+    {
+      "courseId": "nc-housekeeping-operations-level-2",
+      "title": "Housekeeping Operations — Level 2",
+      "category": "Hospitality",
+      "subject": "Hospitality",
+      "level": 2,
+      "levelLabel": "Intermediate",
+      "icon": "🏨",
+      "description": "This programme provides learners with the foundational skills and knowledge required to perform housekeeping duties in hospitality and institutional settings. It focuses on cleaning procedures, sanitation standards, room preparation, inventory management, and the use of cleaning equipment and chemicals.",
+      "learningOutcomes": [
+        "Apply the principles of customer service",
+        "Work with colleagues and customers",
+        "Develop and update hospitality industry/job knowledge",
+        "Operate in a culturally diverse work environment",
+        "Clean floors, walls, furniture and furnishings",
+        "Prepare guests rooms"
+      ],
+      "prerequisites": "No formal prerequisite; a basic command of English and numeracy is recommended.",
+      "awardingBody": null,
+      "qualificationFramework": null,
+      "accreditationStatus": "UNVERIFIED",
+      "certificateLabel": "CHCN L2",
+      "certificateFull": "Certificate of Competence — Housekeeping Operations — Level 2",
+      "unitCount": 41,
+      "totalHours": 2370,
+      "moduleCount": 8,
+      "quizBankQuestionCount": 31,
+      "sources": [
+        [
+          "HEART/NSTA Trust — National Vocational Qualifications of Jamaica (NVQ-J)",
+          "https://www.heart-nsta.org/"
+        ],
+        [
+          "O*NET OnLine — Occupational information & work activities",
+          "https://www.onetonline.org/"
+        ]
+      ],
+      "version": "1.0",
+      "reviewDate": null,
+      "owner": "CHCN Founder",
+      "assignedInstructors": [],
+      "publicationStatus": "published",
+      "contentVerificationStatus": "PENDING_SME_REVIEW"
+    },
+    {
+      "courseId": "nc-housekeeping-supervison-level-3",
+      "title": "Housekeeping Supervision — Level 3",
+      "category": "Business & Management",
+      "subject": "Business & Management",
+      "level": 3,
+      "levelLabel": "Advanced",
+      "icon": "💼",
+      "description": "The Housekeeping Supervision programme is designed to equip learners with the knowledge, skills, and competencies required to supervise housekeeping operations effectively within hotels, resorts, guesthouses, and other accommodation establishments. The programme focuses on room and public-area cleaning standards, staff supervision, work scheduling, quality control, inventory management, health and safety, and guest service. Learners will develop practical skills in coordinating housekeeping teams, inspecting rooms and facilities, maintaining cleanliness standards, controlling supplies and equipment, addressing guest concerns, and ensuring compliance with workplace procedures. Emphasis is placed on leadership, communication, teamwork, professionalism, efficiency, and attention to detail.",
+      "learningOutcomes": [
+        "Operate in a culturally diverse work environment",
+        "Apply conflict resolution strategies to solve interpersonal and workplace issues",
+        "Work with colleagues and customers",
+        "Develop and update hospitality industry/job knowledge",
+        "Clean floors, walls, furniture and furnishings",
+        "Prepare guests rooms"
+      ],
+      "prerequisites": "Prior experience in the field or completion of the Level 2 competencies is recommended; no formal platform prerequisite is enforced.",
+      "awardingBody": null,
+      "qualificationFramework": null,
+      "accreditationStatus": "UNVERIFIED",
+      "certificateLabel": "CHCN L3",
+      "certificateFull": "Certificate of Competence — Housekeeping Supervision — Level 3",
+      "unitCount": 60,
+      "totalHours": 3800,
+      "moduleCount": 11,
+      "quizBankQuestionCount": 31,
+      "sources": [
+        [
+          "HEART/NSTA Trust — National Vocational Qualifications of Jamaica (NVQ-J)",
+          "https://www.heart-nsta.org/"
+        ],
+        [
+          "O*NET OnLine — Occupational information & work activities",
+          "https://www.onetonline.org/"
+        ]
+      ],
+      "version": "1.0",
+      "reviewDate": null,
+      "owner": "CHCN Founder",
+      "assignedInstructors": [],
+      "publicationStatus": "published",
+      "contentVerificationStatus": "PENDING_SME_REVIEW"
+    },
+    {
+      "courseId": "nc-commercial-food-preparation-level-2",
+      "title": "Commercial Food Preparation — Level 2",
+      "category": "Hospitality",
+      "subject": "Hospitality",
+      "level": 2,
+      "levelLabel": "Intermediate",
+      "icon": "🍳",
+      "description": "Trainees will be expected to prepare food according to recipes. They will be able to operate kitchen equipment, prepare platters and showpieces, and bake desserts and pastries. They will also be required to estimate food requirements, administer menu planning, maintain an inventory of kitchen supplies, and prepare and follow budgets.",
+      "learningOutcomes": [
+        "Operate in a culturally diverse work environment",
+        "Apply safe food handling practices and regulations",
+        "Apply environmentally sustainable work practices",
+        "Apply the principles of customer service",
+        "Transport and store food in a safe and hygienic manner",
+        "Clean kitchen premises and equipment"
+      ],
+      "prerequisites": "No formal prerequisite; a basic command of English and numeracy is recommended.",
+      "awardingBody": null,
+      "qualificationFramework": null,
+      "accreditationStatus": "UNVERIFIED",
+      "certificateLabel": "CHCN L2",
+      "certificateFull": "Certificate of Competence — Commercial Food Preparation — Level 2",
+      "unitCount": 48,
+      "totalHours": 3045,
+      "moduleCount": 9,
+      "quizBankQuestionCount": 31,
+      "sources": [
+        [
+          "HEART/NSTA Trust — National Vocational Qualifications of Jamaica (NVQ-J)",
+          "https://www.heart-nsta.org/"
+        ],
+        [
+          "O*NET OnLine — Occupational information & work activities",
+          "https://www.onetonline.org/"
+        ]
+      ],
+      "version": "1.0",
+      "reviewDate": null,
+      "owner": "CHCN Founder",
+      "assignedInstructors": [],
+      "publicationStatus": "published",
+      "contentVerificationStatus": "PENDING_SME_REVIEW"
+    },
+    {
+      "courseId": "nc-hospitality-villa-properties-services-level-2",
+      "title": "Hospitality Villa / Properties Services — Level 2",
+      "category": "Hospitality",
+      "subject": "Hospitality",
+      "level": 2,
+      "levelLabel": "Intermediate",
+      "icon": "🏨",
+      "description": "This qualification offers trainees the opportunity to demonstrate the knowledge, skills and attitudes needed to effectively function in the hospitality industry.",
+      "learningOutcomes": [
+        "Operate in a culturally diverse work environment",
+        "Comply with work, health, safety and security procedures",
+        "Use mobile it devices",
+        "Participate in online networks and social media",
+        "Perform basic computer applications",
+        "Organize, prepare and present simple dishes"
+      ],
+      "prerequisites": "No formal prerequisite; a basic command of English and numeracy is recommended.",
+      "awardingBody": null,
+      "qualificationFramework": null,
+      "accreditationStatus": "UNVERIFIED",
+      "certificateLabel": "CHCN L2",
+      "certificateFull": "Certificate of Competence — Hospitality Villa / Properties Services — Level 2",
+      "unitCount": 58,
+      "totalHours": 3690,
+      "moduleCount": 11,
+      "quizBankQuestionCount": 31,
+      "sources": [
+        [
+          "HEART/NSTA Trust — National Vocational Qualifications of Jamaica (NVQ-J)",
+          "https://www.heart-nsta.org/"
+        ],
+        [
+          "O*NET OnLine — Occupational information & work activities",
+          "https://www.onetonline.org/"
+        ]
+      ],
+      "version": "1.0",
+      "reviewDate": null,
+      "owner": "CHCN Founder",
+      "assignedInstructors": [],
+      "publicationStatus": "published",
+      "contentVerificationStatus": "PENDING_SME_REVIEW"
+    },
+    {
+      "courseId": "nc-housekeeping-linen-room-attendant-level-2",
+      "title": "Housekeeping (Linen Room Attendant) — Level 2",
+      "category": "Hospitality",
+      "subject": "Hospitality",
+      "level": 2,
+      "levelLabel": "Intermediate",
+      "icon": "🏨",
+      "description": "This course is designed to equip learners with the knowledge, skills and attitudes required to perform the duties of a Room Attendant in the housekeeping department of hotels, guesthouses, resorts and other accommodation facilities. Trainees gain hands-on training in cleaning, sanitizing and maintaining guest rooms and public areas to industry standards. The course emphasizes attention to detail, guest satisfaction, time management, safety procedures, and the use of modern cleaning equipment and chemicals.",
+      "learningOutcomes": [
+        "Carry out data entry and retrieval procedures",
+        "Work with colleagues and customers",
+        "Follow health, safety and security procedures",
+        "Develop and update hospitality industry knowledge",
+        "Follow work place hygiene procedure",
+        "Communicate on the telephone"
+      ],
+      "prerequisites": "No formal prerequisite; a basic command of English and numeracy is recommended.",
+      "awardingBody": null,
+      "qualificationFramework": null,
+      "accreditationStatus": "UNVERIFIED",
+      "certificateLabel": "CHCN L2",
+      "certificateFull": "Certificate of Competence — Housekeeping (Linen Room Attendant) — Level 2",
+      "unitCount": 28,
+      "totalHours": 659,
+      "moduleCount": 6,
+      "quizBankQuestionCount": 31,
+      "sources": [
+        [
+          "HEART/NSTA Trust — National Vocational Qualifications of Jamaica (NVQ-J)",
+          "https://www.heart-nsta.org/"
+        ],
+        [
+          "O*NET OnLine — Occupational information & work activities",
+          "https://www.onetonline.org/"
+        ]
+      ],
+      "version": "1.0",
+      "reviewDate": null,
+      "owner": "CHCN Founder",
+      "assignedInstructors": [],
+      "publicationStatus": "published",
+      "contentVerificationStatus": "PENDING_SME_REVIEW"
+    },
+    {
+      "courseId": "nc-industrial-security-operations-level-3",
+      "title": "Industrial Security Operations — Level 3",
+      "category": "Security",
+      "subject": "Security",
+      "level": 3,
+      "levelLabel": "Advanced",
+      "icon": "🛡️",
+      "description": "This Level 3 programme prepares trainees to work effectively in the industrial security industry and to supervise security operations. It covers access and crowd control, legal and procedural requirements, occupational health and safety, conflict management, the use of batons and handcuffs, searches, surveillance and control-room monitoring, incident and emergency response, report writing, first aid, and the planning, coordination and supervision of security teams and operations.",
+      "learningOutcomes": [
+        "Handle telephone calls",
+        "Apply basic defensive techniques",
+        "Apprehend and arrest offenders",
+        "Communicate in the workplace",
+        "Control access to and exit from premises",
+        "Control and direct crowds"
+      ],
+      "prerequisites": "Prior experience in the field or completion of the Level 2 competencies is recommended; no formal platform prerequisite is enforced.",
+      "awardingBody": null,
+      "qualificationFramework": null,
+      "accreditationStatus": "UNVERIFIED",
+      "certificateLabel": "CHCN L3",
+      "certificateFull": "Certificate of Competence — Industrial Security Operations — Level 3",
+      "unitCount": 64,
+      "totalHours": 1148,
+      "moduleCount": 12,
+      "quizBankQuestionCount": 31,
+      "sources": [
+        [
+          "HEART/NSTA Trust — National Vocational Qualifications of Jamaica (NVQ-J)",
+          "https://www.heart-nsta.org/"
+        ],
+        [
+          "O*NET OnLine — Occupational information & work activities",
+          "https://www.onetonline.org/"
+        ]
+      ],
+      "version": "1.0",
+      "reviewDate": null,
+      "owner": "CHCN Founder",
+      "assignedInstructors": [],
+      "publicationStatus": "published",
+      "contentVerificationStatus": "PENDING_SME_REVIEW"
+    },
+    {
+      "courseId": "nc-computer-service-and-support-level-2",
+      "title": "Computer Service and Support — Level 2",
+      "category": "ICT",
+      "subject": "ICT",
+      "level": 2,
+      "levelLabel": "Intermediate",
+      "icon": "💻",
+      "description": "This course will equip participants with the requisite knowledge and skill to install, maintain and service computers.",
+      "learningOutcomes": [
+        "Comply with the occupational health and safety policies and procedures",
+        "Communicate and interact effectively in the workplace",
+        "Assemble, configure and test a desktop computer",
+        "Comply with environmentally sustainable practices in the workplace",
+        "Comply with copyright, professional ethics and privacy in an ict environment",
+        "Install, configure and support multimedia peripherals"
+      ],
+      "prerequisites": "No formal prerequisite; a basic command of English and numeracy is recommended.",
+      "awardingBody": null,
+      "qualificationFramework": null,
+      "accreditationStatus": "UNVERIFIED",
+      "certificateLabel": "CHCN L2",
+      "certificateFull": "Certificate of Competence — Computer Service and Support — Level 2",
+      "unitCount": 27,
+      "totalHours": 640,
+      "moduleCount": 6,
+      "quizBankQuestionCount": 31,
+      "sources": [
+        [
+          "HEART/NSTA Trust — National Vocational Qualifications of Jamaica (NVQ-J)",
+          "https://www.heart-nsta.org/"
+        ],
+        [
+          "O*NET OnLine — Occupational information & work activities",
+          "https://www.onetonline.org/"
+        ]
+      ],
+      "version": "1.0",
+      "reviewDate": null,
+      "owner": "CHCN Founder",
+      "assignedInstructors": [],
+      "publicationStatus": "published",
+      "contentVerificationStatus": "PENDING_SME_REVIEW"
+    },
+    {
+      "courseId": "nc-data-operations-level-2",
+      "title": "Data Operations — Level 2",
+      "category": "ICT",
+      "subject": "ICT",
+      "level": 2,
+      "levelLabel": "Intermediate",
+      "icon": "💻",
+      "description": "This Level 2 programme equips trainees with the practical skills to work effectively in an information-technology environment and perform data operations. It covers operating a personal computer and word-processing, spreadsheet, database and presentation applications; data entry and internet use; SQL for creating database structures and manipulating data; multimedia production with text, images and graphics; connecting and maintaining hardware and software; and communicating professionally with clients, all underpinned by occupational health and safety and teamwork.",
+      "learningOutcomes": [
+        "Apply occupational health and safety procedures",
+        "Work effectively in an information technology environment",
+        "Communicate in the workplace",
+        "Participate in a team and individually to achieve organisation goals",
+        "Operate a personal computer",
+        "Operate a word processing application (basic)"
+      ],
+      "prerequisites": "No formal prerequisite; a basic command of English and numeracy is recommended.",
+      "awardingBody": null,
+      "qualificationFramework": null,
+      "accreditationStatus": "UNVERIFIED",
+      "certificateLabel": "CHCN L2",
+      "certificateFull": "Certificate of Competence — Data Operations — Level 2",
+      "unitCount": 37,
+      "totalHours": 690,
+      "moduleCount": 8,
+      "quizBankQuestionCount": 21,
+      "sources": [
+        [
+          "HEART/NSTA Trust — National Vocational Qualifications of Jamaica (NVQ-J)",
+          "https://www.heart-nsta.org/"
+        ],
+        [
+          "O*NET OnLine — Occupational information & work activities",
+          "https://www.onetonline.org/"
+        ]
+      ],
+      "version": "1.0",
+      "reviewDate": null,
+      "owner": "CHCN Founder",
+      "assignedInstructors": [],
+      "publicationStatus": "published",
+      "contentVerificationStatus": "PENDING_SME_REVIEW"
+    },
+    {
+      "courseId": "nc-network-engineering-level-4",
+      "title": "Network Engineering — Level 4",
+      "category": "ICT",
+      "subject": "ICT",
+      "level": 4,
+      "levelLabel": "Advanced",
+      "icon": "💻",
+      "description": "Network Engineering Level 4 is an intermediate–advanced qualification designed to equip learners with the knowledge and practical skills to design, install, configure, secure, and troubleshoot modern computer networks. The course builds on foundational IT and networking skills and prepares learners for industry roles as junior network engineers, support technicians, and infrastructure specialists.",
+      "learningOutcomes": [
+        "Lead and supervise team",
+        "Manage quality customer service",
+        "Manage procurement",
+        "Develop a business plan",
+        "Supervise staff performance",
+        "Develop integration blueprint for ict systems"
+      ],
+      "prerequisites": "Prior industry experience and completion of the relevant lower-level competencies are recommended; no formal platform prerequisite is enforced.",
+      "awardingBody": null,
+      "qualificationFramework": null,
+      "accreditationStatus": "UNVERIFIED",
+      "certificateLabel": "CHCN L4",
+      "certificateFull": "Certificate of Competence — Network Engineering — Level 4",
+      "unitCount": 49,
+      "totalHours": 1160,
+      "moduleCount": 10,
+      "quizBankQuestionCount": 21,
+      "sources": [
+        [
+          "HEART/NSTA Trust — National Vocational Qualifications of Jamaica (NVQ-J)",
+          "https://www.heart-nsta.org/"
+        ],
+        [
+          "O*NET OnLine — Occupational information & work activities",
+          "https://www.onetonline.org/"
+        ]
+      ],
+      "version": "1.0",
+      "reviewDate": null,
+      "owner": "CHCN Founder",
+      "assignedInstructors": [],
+      "publicationStatus": "published",
+      "contentVerificationStatus": "PENDING_SME_REVIEW"
+    },
+    {
+      "courseId": "nc-air-conditioning-refrigeration-level-2",
+      "title": "Air Conditioning & Refrigeration (Commercial/Industrial) — Level 2",
+      "category": "Electrical & HVAC",
+      "subject": "Electrical & HVAC",
+      "level": 2,
+      "levelLabel": "Intermediate",
+      "icon": "❄️",
+      "description": "At the end of this programme, learners will be equipped with the skill set to carry out routine maintenance, servicing and installation of commercial and industrial refrigeration and air-conditioning systems.",
+      "learningOutcomes": [
+        "Carry out data entry and retrieval procedures",
+        "Perform technical computations (basic)",
+        "Use electrical/electronic measuring devices",
+        "Mark off/out (general engineering)",
+        "Draw and interpret sketch and simple drawing",
+        "Use and care power tools"
+      ],
+      "prerequisites": "No formal prerequisite; a basic command of English and numeracy is recommended.",
+      "awardingBody": null,
+      "qualificationFramework": null,
+      "accreditationStatus": "UNVERIFIED",
+      "certificateLabel": "CHCN L2",
+      "certificateFull": "Certificate of Competence — Air Conditioning & Refrigeration (Commercial/Industrial) — Level 2",
+      "unitCount": 56,
+      "totalHours": 1507,
+      "moduleCount": 11,
+      "quizBankQuestionCount": 31,
+      "sources": [
+        [
+          "HEART/NSTA Trust — National Vocational Qualifications of Jamaica (NVQ-J)",
+          "https://www.heart-nsta.org/"
+        ],
+        [
+          "O*NET OnLine — Occupational information & work activities",
+          "https://www.onetonline.org/"
+        ]
+      ],
+      "version": "1.0",
+      "reviewDate": null,
+      "owner": "CHCN Founder",
+      "assignedInstructors": [],
+      "publicationStatus": "published",
+      "contentVerificationStatus": "PENDING_SME_REVIEW"
+    },
+    {
+      "courseId": "nc-air-conditioning-and-refrigeration-level-2",
+      "title": "Air Conditioning & Refrigeration (Domestic/Light-Commercial) — Level 2",
+      "category": "Electrical & HVAC",
+      "subject": "Electrical & HVAC",
+      "level": 2,
+      "levelLabel": "Intermediate",
+      "icon": "❄️",
+      "description": "Air Conditioning and Refrigeration Level 2 is an intermediate, hands-on technical program that prepares learners to install, maintain, troubleshoot, and repair domestic and light-commercial cooling systems. It builds on fundamentals and introduces real-world skills used in the HVAC/R industry. Learners develop strong competencies in refrigeration cycle operation, electrical controls, system components, safe work practices, and servicing procedures.",
+      "learningOutcomes": [
+        "Apply basic electrical safety",
+        "Use and maintain hand and power tools for electrical work",
+        "Use mobile it devices",
+        "Participate in online networks and social media",
+        "Perform basic computer applications",
+        "Use electrical/electronic measuring devices"
+      ],
+      "prerequisites": "No formal prerequisite; a basic command of English and numeracy is recommended.",
+      "awardingBody": null,
+      "qualificationFramework": null,
+      "accreditationStatus": "UNVERIFIED",
+      "certificateLabel": "CHCN L2",
+      "certificateFull": "Certificate of Competence — Air Conditioning & Refrigeration (Domestic/Light-Commercial) — Level 2",
+      "unitCount": 37,
+      "totalHours": 2595,
+      "moduleCount": 8,
+      "quizBankQuestionCount": 31,
+      "sources": [
+        [
+          "HEART/NSTA Trust — National Vocational Qualifications of Jamaica (NVQ-J)",
+          "https://www.heart-nsta.org/"
+        ],
+        [
+          "O*NET OnLine — Occupational information & work activities",
+          "https://www.onetonline.org/"
+        ]
+      ],
+      "version": "1.0",
+      "reviewDate": null,
+      "owner": "CHCN Founder",
+      "assignedInstructors": [],
+      "publicationStatus": "published",
+      "contentVerificationStatus": "PENDING_SME_REVIEW"
+    },
+    {
+      "courseId": "nc-electrical-electronic-maintenance-level-2",
+      "title": "Electrical / Electronic Maintenance — Level 2",
+      "category": "Electrical & HVAC",
+      "subject": "Electrical & HVAC",
+      "level": 2,
+      "levelLabel": "Intermediate",
+      "icon": "🔋",
+      "description": "Electrical/Electronic Maintenance Level 2 is an intermediate technical program focused on developing the knowledge and practical skills needed to install, maintain, repair, and troubleshoot electrical and basic electronic systems. It builds on fundamentals and prepares learners for real-world roles in industrial, commercial, and residential maintenance environments. Learners gain hands-on experience working with electrical circuits, motors, control systems, wiring installations, and basic electronic devices",
+      "learningOutcomes": [
+        "Carry out data entry and retrieval procedures",
+        "Perform related computations-basic",
+        "Use electrical/electronic measuring devices",
+        "Mark off/out (general engineering)",
+        "Undertake interactive workplace communication",
+        "Follow principles of (oh&s) in work environment"
+      ],
+      "prerequisites": "No formal prerequisite; a basic command of English and numeracy is recommended.",
+      "awardingBody": null,
+      "qualificationFramework": null,
+      "accreditationStatus": "UNVERIFIED",
+      "certificateLabel": "CHCN L2",
+      "certificateFull": "Certificate of Competence — Electrical / Electronic Maintenance — Level 2",
+      "unitCount": 38,
+      "totalHours": 890,
+      "moduleCount": 8,
+      "quizBankQuestionCount": 31,
+      "sources": [
+        [
+          "HEART/NSTA Trust — National Vocational Qualifications of Jamaica (NVQ-J)",
+          "https://www.heart-nsta.org/"
+        ],
+        [
+          "O*NET OnLine — Occupational information & work activities",
+          "https://www.onetonline.org/"
+        ]
+      ],
+      "version": "1.0",
+      "reviewDate": null,
+      "owner": "CHCN Founder",
+      "assignedInstructors": [],
+      "publicationStatus": "published",
+      "contentVerificationStatus": "PENDING_SME_REVIEW"
+    },
+    {
+      "courseId": "nc-industrial-electrical-maintenance-level-3",
+      "title": "Industrial Electrical Maintenance — Level 3",
+      "category": "Electrical & HVAC",
+      "subject": "Electrical & HVAC",
+      "level": 3,
+      "levelLabel": "Advanced",
+      "icon": "🔋",
+      "description": "Industrial Electrical Maintenance Programme provides hands-on training in the installation, troubleshooting, and repair of electrical systems in industrial settings. Participants will gain expertise in electrical safety, motor controls, programmable logic controllers (PLCs), power distribution, and preventive maintenance. The programme is designed to equip trainees with the technical skills required to maintain and service electrical equipment in manufacturing plants, commercial facilities, and other industrial environments, ensuring compliance with safety and industry standards.",
+      "learningOutcomes": [
+        "Perform related computations-basic",
+        "Use electrical/electronic measuring devices",
+        "Mark off/out (general engineering)",
+        "Undertake interactive workplace communication",
+        "Follow principles of (oh&s) in work environment",
+        "Plan to undertake a routine task"
+      ],
+      "prerequisites": "Prior experience in the field or completion of the Level 2 competencies is recommended; no formal platform prerequisite is enforced.",
+      "awardingBody": null,
+      "qualificationFramework": null,
+      "accreditationStatus": "UNVERIFIED",
+      "certificateLabel": "CHCN L3",
+      "certificateFull": "Certificate of Competence — Industrial Electrical Maintenance — Level 3",
+      "unitCount": 41,
+      "totalHours": 910,
+      "moduleCount": 8,
+      "quizBankQuestionCount": 31,
+      "sources": [
+        [
+          "HEART/NSTA Trust — National Vocational Qualifications of Jamaica (NVQ-J)",
+          "https://www.heart-nsta.org/"
+        ],
+        [
+          "O*NET OnLine — Occupational information & work activities",
+          "https://www.onetonline.org/"
+        ]
+      ],
+      "version": "1.0",
+      "reviewDate": null,
+      "owner": "CHCN Founder",
+      "assignedInstructors": [],
+      "publicationStatus": "published",
+      "contentVerificationStatus": "PENDING_SME_REVIEW"
+    },
+    {
+      "courseId": "nc-plumbing-level-2",
+      "title": "Plumbing — Level 2",
+      "category": "Construction & Trades",
+      "subject": "Construction & Trades",
+      "level": 2,
+      "levelLabel": "Intermediate",
+      "icon": "🚿",
+      "description": "The qualification aims to certify skilled persons in the area, as there is a need for such certification.",
+      "learningOutcomes": [
+        "Carry out concreting to simple forms",
+        "Assemble pipes and fittings",
+        "Perform technical computations - basic",
+        "Perform related computations-basic",
+        "Mark off/out (general engineering)",
+        "Draw and interpret sketches and simple drawings"
+      ],
+      "prerequisites": "No formal prerequisite; a basic command of English and numeracy is recommended.",
+      "awardingBody": null,
+      "qualificationFramework": null,
+      "accreditationStatus": "UNVERIFIED",
+      "certificateLabel": "CHCN L2",
+      "certificateFull": "Certificate of Competence — Plumbing — Level 2",
+      "unitCount": 40,
+      "totalHours": 825,
+      "moduleCount": 8,
+      "quizBankQuestionCount": 31,
+      "sources": [
+        [
+          "HEART/NSTA Trust — National Vocational Qualifications of Jamaica (NVQ-J)",
+          "https://www.heart-nsta.org/"
+        ],
+        [
+          "O*NET OnLine — Occupational information & work activities",
+          "https://www.onetonline.org/"
+        ]
+      ],
+      "version": "1.0",
+      "reviewDate": null,
+      "owner": "CHCN Founder",
+      "assignedInstructors": [],
+      "publicationStatus": "published",
+      "contentVerificationStatus": "PENDING_SME_REVIEW"
+    },
+    {
+      "courseId": "nc-welding-level-2",
+      "title": "Welding — Level 2",
+      "category": "Construction & Trades",
+      "subject": "Construction & Trades",
+      "level": 2,
+      "levelLabel": "Intermediate",
+      "icon": "🔥",
+      "description": "This programme is designed to equip individuals with the essential skills and understanding to function in the metal engineering and maintenance industry.",
+      "learningOutcomes": [
+        "Perform related computations - (basic)",
+        "Mark off/out (general engineering)",
+        "Draw and interpret sketch and simple drawing",
+        "Use and care power tools",
+        "Classify engineering materials –(basic)",
+        "Undertake interactive workplace communication"
+      ],
+      "prerequisites": "No formal prerequisite; a basic command of English and numeracy is recommended.",
+      "awardingBody": null,
+      "qualificationFramework": null,
+      "accreditationStatus": "UNVERIFIED",
+      "certificateLabel": "CHCN L2",
+      "certificateFull": "Certificate of Competence — Welding — Level 2",
+      "unitCount": 35,
+      "totalHours": 830,
+      "moduleCount": 7,
+      "quizBankQuestionCount": 31,
+      "sources": [
+        [
+          "HEART/NSTA Trust — National Vocational Qualifications of Jamaica (NVQ-J)",
+          "https://www.heart-nsta.org/"
+        ],
+        [
+          "O*NET OnLine — Occupational information & work activities",
+          "https://www.onetonline.org/"
+        ]
+      ],
+      "version": "1.0",
+      "reviewDate": null,
+      "owner": "CHCN Founder",
+      "assignedInstructors": [],
+      "publicationStatus": "published",
+      "contentVerificationStatus": "PENDING_SME_REVIEW"
+    },
+    {
+      "courseId": "nc-forklifting-operations-level-2",
+      "title": "Forklifting Operations — Level 2",
+      "category": "Logistics & Operations",
+      "subject": "Logistics & Operations",
+      "level": 2,
+      "levelLabel": "Intermediate",
+      "icon": "🚜",
+      "description": "Forklifting Operations Level 2 is designed to provide students with intermediate skills and knowledge required to safely operate forklifts in industrial, warehouse, and logistics environments. The course emphasizes safe handling practices, equipment maintenance, load management, and workplace efficiency.",
+      "learningOutcomes": [
+        "Perform manual handling and lifting",
+        "Operate basic load shifting and lifting equipment",
+        "Present routine workplace information",
+        "Plan and undertake a routine task",
+        "Perform routine housekeeping duties",
+        "Receive goods"
+      ],
+      "prerequisites": "No formal prerequisite; a basic command of English and numeracy is recommended.",
+      "awardingBody": null,
+      "qualificationFramework": null,
+      "accreditationStatus": "UNVERIFIED",
+      "certificateLabel": "CHCN L2",
+      "certificateFull": "Certificate of Competence — Forklifting Operations — Level 2",
+      "unitCount": 35,
+      "totalHours": 1665,
+      "moduleCount": 7,
+      "quizBankQuestionCount": 31,
+      "sources": [
+        [
+          "HEART/NSTA Trust — National Vocational Qualifications of Jamaica (NVQ-J)",
+          "https://www.heart-nsta.org/"
+        ],
+        [
+          "O*NET OnLine — Occupational information & work activities",
+          "https://www.onetonline.org/"
+        ]
+      ],
+      "version": "1.0",
+      "reviewDate": null,
+      "owner": "CHCN Founder",
+      "assignedInstructors": [],
+      "publicationStatus": "published",
+      "contentVerificationStatus": "PENDING_SME_REVIEW"
+    }
+  ]
+}
